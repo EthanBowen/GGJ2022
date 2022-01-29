@@ -15,12 +15,12 @@ D:/Temp/GGJ2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57896
+52937
 Successfully changed project path to: D:/Temp/GGJ2022
 D:/Temp/GGJ2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.95 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 1.61 ms.
+Refreshing native plugins compatible for Editor in 69.60 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.72 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Temp/GGJ2022/Assets
@@ -35,48 +35,48 @@ Initialize mono
 Mono path[0] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Temp/UnityHub/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001195 seconds.
+Registered in 0.000830 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.45 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 57.31 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.454 seconds
+- Completed reload, in  0.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (454ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (495ms)
+		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (358ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (150ms)
+			SetupLoadedEditorAssemblies (148ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (57ms)
 				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008294 seconds.
+Registered in 0.008251 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.87 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 57.31 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -98,28 +98,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
+- Completed reload, in  0.972 seconds
 Domain Reload Profiling:
-	ReloadAssembly (997ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (837ms)
+		EndReloadAssembly (818ms)
 			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (334ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (193ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (185ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -128,15 +128,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.85 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
+Preloading 2 native plugins for Editor in 0.10 ms.
 Unloading 4006 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 165.5 MB.
 System memory in use after: 165.7 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4421.
-Total: 2.954500 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.179700 ms MarkObjects: 2.473500 ms  DeleteObjects: 0.053100 ms)
+Total: 2.849700 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.178900 ms MarkObjects: 2.364000 ms  DeleteObjects: 0.051900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,17 +151,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art_Assets/FullRoomFinal.fbx
-  artifactKey: Guid(ccc11dcf2c6d4fc49bfd4e963cf08cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/FullRoomFinal.fbx using Guid(ccc11dcf2c6d4fc49bfd4e963cf08cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9498cf1501d5a3645e2b6e1f8ddfc06') in 0.316457 seconds 
-  Import took 0.341946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.613538 seconds.
-  path: Assets/Art_Assets/Blender.fbx
-  artifactKey: Guid(e7039dd21d4d0b149af323d8e0e40572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Blender.fbx using Guid(e7039dd21d4d0b149af323d8e0e40572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6854450cfecd7719105cbb0aaf70c9') in 0.024355 seconds 
-  Import took 0.029661 seconds .
+  path: Assets/Art_Assets/FullRoom3.fbx
+  artifactKey: Guid(a31742b47d5eaf846b20f604953db0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/FullRoom3.fbx using Guid(a31742b47d5eaf846b20f604953db0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91e3d3e0cc79339d709c79be246f4db') in 0.274982 seconds 
+  Import took 0.299160 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
