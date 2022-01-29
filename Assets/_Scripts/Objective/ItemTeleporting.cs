@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//using Valve.VR.InteractionSystem;
+using UnityEngine.XR.Interaction.Toolkit;
 
 [SelectionBase]
 public class ItemTeleporting : MonoBehaviour
@@ -11,22 +11,22 @@ public class ItemTeleporting : MonoBehaviour
 
     private Camera playerCamera;
     
-    private Renderer ichiRenderer;
+    private Renderer objectRenderer;
 
     private Rigidbody rb;
 
-    //private Interactable interactable;
+    private XRGrabInteractable interactable;
 
     private float lastMove;
     private float nextMove;
 
     private void Awake()
     {
-        ichiRenderer = GetComponent<Renderer>();
-        if (!ichiRenderer)
-            ichiRenderer = GetComponentInChildren<Renderer>();
+        objectRenderer = GetComponent<Renderer>();
+        if (!objectRenderer)
+            objectRenderer = GetComponentInChildren<Renderer>();
         
-        //interactable = GetComponent<Interactable>();
+        interactable = GetComponent<XRGrabInteractable>();
         rb = GetComponent<Rigidbody>();
     }
 
@@ -54,7 +54,7 @@ public class ItemTeleporting : MonoBehaviour
 
     private void TryMove()
     {
-        if (!ichiRenderer.isVisible) //&& //!interactable.attachedToHand)
+        if (locations.Count > 0 && !objectRenderer.isVisible && !interactable.isSelected)
         {
             List<Transform> validSpots = new List<Transform>();
             foreach (Transform loc in locations)
@@ -67,28 +67,15 @@ public class ItemTeleporting : MonoBehaviour
                 }
             }
 
-            Transform newPos = validSpots[(int)Random.Range(0.0f, validSpots.Count - 0.00001f)];
-
-            /*
-            List<GameObject> validSpots = new List<GameObject>();
-            foreach (GameObject loc in locations)
+            if (validSpots.Count > 0)
             {
-                Renderer ren = loc.GetComponent<Renderer>();
+                Transform newPos = validSpots[(int)Random.Range(0.0f, validSpots.Count - 0.00001f)];
 
-                if(!ren.isVisible)
-                {
-                    validSpots.Add(loc);
-                }
+                rb.velocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
+                transform.position = newPos.position;
+                transform.rotation = newPos.rotation;
             }
-
-            Transform newPos = validSpots[(int)Random.Range(0.0f, validSpots.Count - 0.00001f)].transform;
-            */
-
-            rb.velocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-            transform.position = newPos.position;
-            transform.rotation = newPos.rotation;
-
             lastMove = Time.time;
             nextMove = Random.Range(0f, 15f);
         }  

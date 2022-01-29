@@ -16,9 +16,9 @@ TagManager:
   - Wall
   - Furniture
   - Player
-  - 
-  - 
-  - 
+  - PlayerBody
+  - Interactable
+  - HoverHighlight
   - 
   - 
   - 
