@@ -15,12 +15,12 @@ D:/Temp/GGJ2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57896
+61204
 Successfully changed project path to: D:/Temp/GGJ2022
 D:/Temp/GGJ2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.95 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 1.61 ms.
+Refreshing native plugins compatible for Editor in 72.17 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.69 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Temp/GGJ2022/Assets
@@ -35,35 +35,35 @@ Initialize mono
 Mono path[0] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Temp/UnityHub/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001195 seconds.
+Registered in 0.000781 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.45 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 58.57 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.454 seconds
+- Completed reload, in  0.463 seconds
 Domain Reload Profiling:
-	ReloadAssembly (454ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (463ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (358ms)
+		EndReloadAssembly (364ms)
 			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (150ms)
+			SetupLoadedEditorAssemblies (151ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (6ms)
 				ProcessInitializeOnLoadAttributes (62ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
@@ -73,10 +73,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008294 seconds.
+Registered in 0.008100 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.87 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 59.25 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -98,28 +98,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
+- Completed reload, in  1.002 seconds
 Domain Reload Profiling:
-	ReloadAssembly (997ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1003ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (837ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (845ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
+			SetupTypeCache (279ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -128,15 +128,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.09 ms.
-Unloading 4006 Unused Serialized files (Serialized files now loaded: 0)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 4008 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 165.5 MB.
-System memory in use after: 165.7 MB.
+System memory in use after: 165.8 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4421.
-Total: 2.954500 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.179700 ms MarkObjects: 2.473500 ms  DeleteObjects: 0.053100 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4423.
+Total: 2.932900 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.148800 ms MarkObjects: 2.485700 ms  DeleteObjects: 0.051900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,17 +151,145 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art_Assets/FullRoomFinal.fbx
-  artifactKey: Guid(ccc11dcf2c6d4fc49bfd4e963cf08cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/FullRoomFinal.fbx using Guid(ccc11dcf2c6d4fc49bfd4e963cf08cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9498cf1501d5a3645e2b6e1f8ddfc06') in 0.316457 seconds 
-  Import took 0.341946 seconds .
+  path: Assets/Art_Assets/Bedroom_Level
+  artifactKey: Guid(0bcaeb858d943f84eaa43d7da0372405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom_Level using Guid(0bcaeb858d943f84eaa43d7da0372405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cb1d0eba9127f68b5bebbe24c435fe') in 0.007984 seconds 
+  Import took 0.020737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.613538 seconds.
-  path: Assets/Art_Assets/Blender.fbx
-  artifactKey: Guid(e7039dd21d4d0b149af323d8e0e40572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Blender.fbx using Guid(e7039dd21d4d0b149af323d8e0e40572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6854450cfecd7719105cbb0aaf70c9') in 0.024355 seconds 
-  Import took 0.029661 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art_Assets/Kitchen_Level
+  artifactKey: Guid(b2054bce428724b4b95ad2ac08062a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level using Guid(b2054bce428724b4b95ad2ac08062a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e97eb01d6ee19a4a5cfdc98dd01f685') in 0.004349 seconds 
+  Import took 0.030412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795212 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Can_Of_soup.fbx
+  artifactKey: Guid(2221271d2929bb848b659a0329881638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Can_Of_soup.fbx using Guid(2221271d2929bb848b659a0329881638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f196b406f31bbb475ce2e1b5b9c065b6') in 0.194414 seconds 
+  Import took 0.209031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Sponge.fbx
+  artifactKey: Guid(2f644fb16df7083479c4c5ac585e79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Sponge.fbx using Guid(2f644fb16df7083479c4c5ac585e79d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71980f5a5e84d6d5807e62250fe731fe') in 0.018480 seconds 
+  Import took 0.026558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Soda_Can.fbx
+  artifactKey: Guid(154a1a1184c1fbe4d9c8916320c1daba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Soda_Can.fbx using Guid(154a1a1184c1fbe4d9c8916320c1daba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043ca86e9c3b006986c487a166c430f7') in 0.016636 seconds 
+  Import took 0.022295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Mail_Envelope.fbx
+  artifactKey: Guid(125bf96d6c84682439d474630eeab43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Mail_Envelope.fbx using Guid(125bf96d6c84682439d474630eeab43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fda9832ebe48630cb22109e6f55a0b') in 0.017158 seconds 
+  Import took 0.029926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Glass_Bottle.fbx
+  artifactKey: Guid(ef712cfccc7f1c24cb1f6b7c1c7e425a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Glass_Bottle.fbx using Guid(ef712cfccc7f1c24cb1f6b7c1c7e425a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c6d100614c5a27a0f9d79f2b45b91c') in 0.019517 seconds 
+  Import took 0.024956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Fork.fbx
+  artifactKey: Guid(bbb686276dfd6c84ea44e4fbdbb630c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Fork.fbx using Guid(bbb686276dfd6c84ea44e4fbdbb630c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318eac4cb331cf7b917faf01d56bb217') in 0.019006 seconds 
+  Import took 0.028738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Spoon.fbx
+  artifactKey: Guid(f27e9ba28e87998428559c9014046baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Spoon.fbx using Guid(f27e9ba28e87998428559c9014046baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e578bfd79bd428eba0ed0f6dd67d79') in 0.016814 seconds 
+  Import took 0.021761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.581556 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/WallShelf.fbx
+  artifactKey: Guid(b8c2152c615fda6489f24c1ddd29dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/WallShelf.fbx using Guid(b8c2152c615fda6489f24c1ddd29dd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0db6480f86ea1c5e8aa6587e031755b') in 0.016362 seconds 
+  Import took 0.037938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.775873 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Plate.fbx
+  artifactKey: Guid(393e3a433d692be4fbd6f8ad1b76998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Plate.fbx using Guid(393e3a433d692be4fbd6f8ad1b76998c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8eb43217f8c0f65d7d18bb12e5cbc6') in 0.016380 seconds 
+  Import took 0.021889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.420399 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Oven.fbx
+  artifactKey: Guid(9cc200b56d00f9b4fb14e455b9bf3f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Oven.fbx using Guid(9cc200b56d00f9b4fb14e455b9bf3f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5512db33bdce672cbf7f067bd70a7d2') in 0.025083 seconds 
+  Import took 0.030439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.748759 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Microwave.fbx
+  artifactKey: Guid(0ed84930d1f8252479cdf3bf0bb4b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Microwave.fbx using Guid(0ed84930d1f8252479cdf3bf0bb4b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34f47236be2c7d635494a537c272871') in 0.025007 seconds 
+  Import took 0.029753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.152586 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Fridge.fbx
+  artifactKey: Guid(8cc43fb456358af4fb92b963cb8666de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Fridge.fbx using Guid(8cc43fb456358af4fb92b963cb8666de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961f9e87b47b7a6a6142161588991c68') in 0.033558 seconds 
+  Import took 0.047564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.186590 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/CuttingBoard.fbx
+  artifactKey: Guid(0cf9d6c5efd996b449d5160029a4833c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/CuttingBoard.fbx using Guid(0cf9d6c5efd996b449d5160029a4833c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db538b636a60cee35d31f20d2a6e7ffc') in 0.016391 seconds 
+  Import took 0.022135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.210666 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/DishSoap.fbx
+  artifactKey: Guid(0e53e28efa9c38946add67058c19dbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/DishSoap.fbx using Guid(0e53e28efa9c38946add67058c19dbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a3938c44d1758471047d96ddcfdc1f') in 0.015970 seconds 
+  Import took 0.021571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.212490 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Bowl.fbx
+  artifactKey: Guid(a54b31cbe964a65408294e3433d40edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Bowl.fbx using Guid(a54b31cbe964a65408294e3433d40edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e44fc8ced0b213fcba929037376990') in 0.016707 seconds 
+  Import took 0.022714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.601601 seconds.
+  path: Assets/Art_Assets/Kitchen_Level/Blender 1.fbx
+  artifactKey: Guid(6022afa8d21fd9e4fbccf4c4fdabd173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Kitchen_Level/Blender 1.fbx using Guid(6022afa8d21fd9e4fbccf4c4fdabd173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b549bf9444da37bba9668c40d271149') in 0.016261 seconds 
+  Import took 0.037021 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
