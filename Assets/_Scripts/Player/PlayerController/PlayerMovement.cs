@@ -78,7 +78,7 @@ public class PlayerMovement : MonoBehaviour
         if(CheckIfInWall())
         {
             Vector3 adjustVector = new Vector3(CC.center.x - lastPosBeforeCollision.x, 0, CC.center.z - lastPosBeforeCollision.z);
-            print(adjustVector);
+            //print(adjustVector);
             //transform.position += adjustVector;
             CC.Move(adjustVector);
             //print("Wall collision");
@@ -113,7 +113,7 @@ public class PlayerMovement : MonoBehaviour
     private bool CheckIfGrounded()
     {
         Vector3 rayStart = transform.TransformPoint(CC.center);
-        float rayLength = CC.center.y + 0.01f;
+        float rayLength = CC.center.y + 0.001f;
         bool hasHit = Physics.SphereCast(rayStart, CC.radius, Vector3.down, out RaycastHit hitInfo, rayLength, groundLayer);
         return hasHit;
     }
