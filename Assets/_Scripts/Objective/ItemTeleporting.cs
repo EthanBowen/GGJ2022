@@ -4,7 +4,7 @@ using UnityEngine;
 //using Valve.VR.InteractionSystem;
 
 [SelectionBase]
-public class Ichimoth : MonoBehaviour
+public class ItemTeleporting : MonoBehaviour
 {
     [SerializeField]
     private List<Transform> locations = new List<Transform>();
