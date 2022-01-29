@@ -45,11 +45,14 @@ public class ObjectHolder : MonoBehaviour
     // When release comes from placeable
     public void StopHolding()
     {
-        if(heldObj)
+        if (heldObj)
+        {
             heldObj.transform.parent = heldObjOriginalParent;
-        heldObjOriginalParent = null;
-        if (heldObj == null)
+            heldObjOriginalParent = null;
+
+            heldObj = null;
             readyToHold = true;
+        }
     }
 
     public bool CanHold(string name)
@@ -66,7 +69,7 @@ public class ObjectHolder : MonoBehaviour
     // When release comes from ObjectHolder
     public void ReleaseItem()
     {
-        //if (heldObj)
-            //heldObj.GetComponent<Placeable>().RemoveFromHolder();
+        if (heldObj)
+            heldObj.GetComponent<Placeable>().RemoveFromHolder();
     }
 }

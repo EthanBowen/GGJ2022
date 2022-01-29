@@ -35,12 +35,7 @@ public class Placeable : MonoBehaviour
         initialParent = transform.parent;
     }
 
-    // Update is called once per frame
-    //void Update()
-    //{
-    //    CheckGrab();
-    //}
-
+    // Object has found a potential holder
     private void OnTriggerEnter(Collider other)
     {
 
@@ -49,12 +44,19 @@ public class Placeable : MonoBehaviour
             ObjectHolder temp = other.GetComponentInParent<ObjectHolder>();
             if (temp != null && temp.readyToHold && temp.CanHold(objectTag))
                 potentialHolder = temp;
+
+            // If not currently being selected by XR Interactor then attempt to place self
+            if(!interactable.isSelected)
+            {
+                TryPlace();
+            }
         }
     }
 
+    // When object leaves its potential holder
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.Equals(potentialHolder.gameObject))
+        if (potentialHolder != null && other.gameObject.Equals(potentialHolder.gameObject))
         {
             potentialHolder = null;
         }
@@ -80,49 +82,39 @@ public class Placeable : MonoBehaviour
         }
 
         readyToBeHeld = !output;
-    }
-
-    public bool FreeHolder(GameObject other)
-    {
-        ObjectHolder temp = other.GetComponentInParent<ObjectHolder>();
-        // Collision is a holder that isn't holding an object
-        if (temp != null)
-        {
-            if (temp.heldObj == null && !temp.readyToHold)
-            {
-                temp.StopHolding();
-                return true;
-            }
-        }
-
-        return false;
-    }
+    }   
 
     // Remove from a holder if it is attached to one
-    public void Grabbed()
+    public void RemoveFromHolder()
     {
-        if (placed && holder != null)// && interactable.attachedToHand)
+        if (placed && holder != null)
         {
+            FreeHolder();
+
             Rigidbody rig = GetComponent<Rigidbody>();
             rig.constraints = RigidbodyConstraints.None;
             
             placed = false;
+            readyToBeHeld = true;
+
             transform.parent = initialParent;
+
             objectHolder.heldObj = null;
+            objectHolder = null;
             holder = null;
         }
     }
 
-    // Called from ObjectHolder
-    public void AttemptRemoveFromHolder()
+    // Frees holder to accept other placeables
+    public bool FreeHolder()
     {
-        Rigidbody rig = GetComponent<Rigidbody>();
-        rig.constraints = RigidbodyConstraints.None;
+        if (objectHolder != null)
+        {
+            
+            objectHolder.StopHolding();
+            return true;
+        }
 
-        placed = false;
-        transform.parent = initialParent;
-        objectHolder.heldObj = null;
-
-        holder = null;
+        return false;
     }
 }
