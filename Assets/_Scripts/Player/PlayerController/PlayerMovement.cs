@@ -12,6 +12,7 @@ using UnityEngine.XR;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
+
     private InputDevice MovementController;
 
     private CharacterController CC;
@@ -19,12 +20,21 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private Transform HeadTransform;
 
-    public float movementSpeed = 1.0f;
+    // Layer references for player collision detection
+    [Header("Layer References")]
+    public LayerMask groundLayer;
+    public LayerMask wallLayer;
 
+    // Variables to ajdust Movement
+    [Header("Movement Variables")]
+    public float movementSpeed = 1.0f;
     public float gravity = -9.81f;
     public float fallingSpeed = 0f;
 
-    public LayerMask groundLayer;
+    // Used for collision handling
+    Vector3 lastPosBeforeCollision = Vector3.zero;
+
+    
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
 
         Quaternion headYaw = Quaternion.Euler(0, HeadTransform.rotation.eulerAngles.y, 0);
 
+        // Apply gravity if needed
         if(CheckIfGrounded())
         {
             fallingSpeed = 0;
@@ -62,15 +73,40 @@ public class PlayerMovement : MonoBehaviour
         {
             fallingSpeed += gravity * Time.deltaTime;
         }
+
+        // Keep players out of walls
+        if(CheckIfInWall())
+        {
+            Vector3 adjustVector = new Vector3(CC.center.x - lastPosBeforeCollision.x, 0, CC.center.z - lastPosBeforeCollision.z);
+            print(adjustVector);
+            //transform.position += adjustVector;
+            CC.Move(adjustVector);
+            //print("Wall collision");
+        }
+        else
+        {
+            lastPosBeforeCollision = CC.center;
+        }
         
         CC.Move(headYaw * new Vector3(moveVector.x, fallingSpeed, moveVector.y) * movementSpeed * Time.deltaTime);
     }
 
+    // Adjusts player collosion to match where their head is
     private void CapsuleAdjustToHeadset()
     {
         Vector3 headPos = HeadTransform.localPosition;
-        CC.center = new Vector3(headPos.x, headPos.y / 2, headPos.z);
-        CC.height = headPos.y;
+
+        // This if-else prevents players from clipping through the floor
+        if (headPos.y > 0.1f)
+        {
+            CC.center = new Vector3(headPos.x, headPos.y / 2, headPos.z);
+            CC.height = headPos.y;
+        }
+        else
+        {
+            CC.center = new Vector3(headPos.x, 0.1f / 2, headPos.z);
+            CC.height = 0.1f;
+        }
     }
 
     // Uses Spherecast to determine if player is in the ground
@@ -81,4 +117,14 @@ public class PlayerMovement : MonoBehaviour
         bool hasHit = Physics.SphereCast(rayStart, CC.radius, Vector3.down, out RaycastHit hitInfo, rayLength, groundLayer);
         return hasHit;
     }
+
+    private bool CheckIfInWall()
+    {
+        Vector3 rayStart = transform.TransformPoint(CC.center + (Vector3.up * CC.center.y));
+        float rayLength = CC.center.y*2;  
+        bool hasHit = Physics.SphereCast(rayStart, CC.radius, Vector3.down, out RaycastHit hitInfo, rayLength, wallLayer);
+        return hasHit;
+    }
+
+
 }
