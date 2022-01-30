@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5706144576029667892}
   - component: {fileID: 7398522711911362801}
   - component: {fileID: 4086782393457311677}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Dresser_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 8047803613049851070}
   - component: {fileID: 4177360739757214728}
   - component: {fileID: 902147594427976721}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Dresser_Door_R1_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 6172125237804078934}
   - component: {fileID: 2111281653799530505}
   - component: {fileID: 2664124580730008157}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Drawer_Top_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +563,7 @@ GameObject:
   - component: {fileID: 8097005779134173475}
   - component: {fileID: 1060699694978694862}
   - component: {fileID: 8237671145146048372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Dresser_Door_L_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1253860477230880215}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Dresser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,7 +1087,7 @@ GameObject:
   - component: {fileID: 2267414116914969397}
   - component: {fileID: 2839427926918894984}
   - component: {fileID: 3751190153048490663}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Drawer_Mid_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2280,7 +2280,7 @@ GameObject:
   - component: {fileID: 2440444568151291174}
   - component: {fileID: 2586071793347989658}
   - component: {fileID: 8580212295112608406}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Drawer_Bot_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

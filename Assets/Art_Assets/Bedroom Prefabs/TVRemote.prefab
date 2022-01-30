@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8617574434057944387}
   - component: {fileID: 648562346112087952}
   - component: {fileID: 1397935581754489730}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TVRemote
   m_TagString: Untagged
   m_Icon: {fileID: 0}

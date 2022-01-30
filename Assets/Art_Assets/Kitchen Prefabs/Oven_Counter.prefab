@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7894068373983944228}
   - component: {fileID: 344887146286980601}
   - component: {fileID: 6267423247560070117}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Oven_Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533680515849060160}
   - component: {fileID: 2027337123359807560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Long end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6554492949064990259}
   - component: {fileID: 1592433434979032412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: short end
   m_TagString: Untagged
   m_Icon: {fileID: 0}

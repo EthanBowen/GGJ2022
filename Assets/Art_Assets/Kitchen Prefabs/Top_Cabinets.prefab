@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216486761364218366}
   - component: {fileID: 1639046342982005967}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: long wall right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8777949130796553071}
   - component: {fileID: 7422380751851648149}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: over fridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7861062198979881722}
   - component: {fileID: 3933468955687790376}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Short wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242692075328082363}
   - component: {fileID: 418144594009593076}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: over sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8205803221012403615}
   - component: {fileID: 9199743869551884333}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: long wall left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 571742053547559086}
   - component: {fileID: 2467557218060318655}
   - component: {fileID: 8348986291711499486}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Top_Cabinets
   m_TagString: Untagged
   m_Icon: {fileID: 0}

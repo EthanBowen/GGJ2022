@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 3900416496583041474}
   - component: {fileID: 7911325430014770322}
   - component: {fileID: 2946784305191339058}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nightstand_TopDrawerHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2266169957165329594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nightstand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -863,7 +863,7 @@ GameObject:
   - component: {fileID: 1581812092543867530}
   - component: {fileID: 916589836506478634}
   - component: {fileID: 2239532852577794857}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: NighstandBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 4251335298658245979}
   - component: {fileID: 7224312525483201786}
   - component: {fileID: 3219247586389625641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nightstand_BottomDrawerHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

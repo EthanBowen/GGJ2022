@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 9026151440922919897}
   - component: {fileID: 7423228825353026251}
   - component: {fileID: 4458314319440659269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SmartPhone
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2541960201624406136}
   - component: {fileID: 2843523890714378054}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Back of Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 3493789174319300881}
   - component: {fileID: 2580855344168478785}
   - component: {fileID: 7552110396184061787}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bottom_Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2578504347671026346}
   - component: {fileID: 5230926244435583857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Center Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2878288088107619217}
   - component: {fileID: 60971357305817675}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bottom of Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6166171463565145935}
   - component: {fileID: 1463911305498104471}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Right of Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4888444047832969639}
   - component: {fileID: 7315911234680616700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Short
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 207136657735507833}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Long
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2784569200076440365}
   - component: {fileID: 9118199232683425129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Front of Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 279177933406780013}
   - component: {fileID: 477117344200309858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Left of Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}

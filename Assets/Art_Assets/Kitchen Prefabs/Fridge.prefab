@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7218469896156995130}
   - component: {fileID: 6003993834763755932}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Top Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5635636085948677472}
   - component: {fileID: 8550261618452604052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Top Fridge Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2774670851729214995}
   - component: {fileID: 3691811948228687514}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Left Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 2801812916460774177}
   - component: {fileID: 5012799387044346739}
   - component: {fileID: 2864330846172310338}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FreezerDoorHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 6197381037663844186}
   - component: {fileID: 3610378325956091770}
   - component: {fileID: 4475631506852667695}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FridgeBottomDoorHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,7 +310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2025971139045232976}
   - component: {fileID: 2932743021009636132}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bottom Fridge Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -398,7 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 289566486278054253}
   - component: {fileID: 3962396411787133552}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Fridge Box Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8071816653952922596}
   - component: {fileID: 7136215522181959587}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6572669995932604310}
   - component: {fileID: 7570466804941513823}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Freezer Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 63419012243820063}
   - component: {fileID: 7683458552486669234}
   - component: {fileID: 4128245149465310536}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Fridge 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5079718512698649259}
   - component: {fileID: 7074138083064538138}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -997,7 +997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5144591290107530820}
   - component: {fileID: 472458103819114452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Right Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1040,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8576934226351257677}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Fridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}

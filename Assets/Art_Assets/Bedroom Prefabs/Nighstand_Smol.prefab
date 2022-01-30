@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4391325973369120264}
   - component: {fileID: 5584557979098675139}
   - component: {fileID: 6110133222332618083}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: NighstandBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 6810598509989841700}
   - component: {fileID: 1657055353451998380}
   - component: {fileID: 2049352977771783610}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nightstand_TopDrawer_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 8646676276666474746}
   - component: {fileID: 5528988613570440941}
   - component: {fileID: 67827136314796377}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nightstand_BottomDrawerHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -592,7 +592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5116337402973061619}
   - component: {fileID: 2216078951635552370}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nighstand_Smol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
