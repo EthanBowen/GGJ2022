@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3196926064453470068}
   - component: {fileID: 7392278942508513820}
   - component: {fileID: 5410079585383088625}
+  - component: {fileID: 1835181577406079112}
   m_Layer: 0
   m_Name: Book
   m_TagString: Untagged
@@ -42,7 +43,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2107111984931962963}
-  m_Mesh: {fileID: -8753488789842677006, guid: ce5b16533dfaf0b46a0ca508761848ca, type: 3}
+  m_Mesh: {fileID: -8753488789842677006, guid: 9e76521cfef5dab4db23afabff963876, type: 3}
 --- !u!23 &449528042696024454
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -62,8 +63,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7491112913799782362, guid: ce5b16533dfaf0b46a0ca508761848ca, type: 3}
-  - {fileID: -2892661081217898446, guid: ce5b16533dfaf0b46a0ca508761848ca, type: 3}
+  - {fileID: 2100000, guid: f4db0a36a97aa59449cb806f46db0ed5, type: 2}
+  - {fileID: 2100000, guid: 8de5344d29feabd4ab594977b2f58e2a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2107111984931962963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517ab4023c2f7ad4d8e52f2c87883b2b, type: 3}
+  m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &7392278942508513820
@@ -276,3 +277,16 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
+--- !u!65 &1835181577406079112
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107111984931962963}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06624832, y: 0.19957907, z: 0.17071868}
+  m_Center: {x: 0, y: 0.100425296, z: 0}

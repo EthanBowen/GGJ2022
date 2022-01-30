@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 471885355180031625}
   - component: {fileID: 6789430714806104357}
   - component: {fileID: 486480632112587123}
+  - component: {fileID: 6948948489655685003}
   m_Layer: 0
   m_Name: CandyDot
   m_TagString: Untagged
@@ -272,6 +273,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 7775754140704979013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 517ab4023c2f7ad4d8e52f2c87883b2b, type: 3}
+  m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &6948948489655685003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7775754140704979013}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019470755, y: 0.012538452, z: 0.01778628}
+  m_Center: {x: -0.00007949956, y: 0.006269226, z: 0.00009540096}

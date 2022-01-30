@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8514454459576826785}
   - component: {fileID: 4064131762481419837}
   - component: {fileID: 5347221738086510551}
+  - component: {fileID: 6236665613888672580}
   m_Layer: 0
   m_Name: Pillow_R
   m_TagString: Untagged
@@ -81,6 +82,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6236665613888672580
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2629971069922338458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.810506, y: 0.13846733, z: 0.40244305}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5593205565744092186
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,6 +139,7 @@ GameObject:
   - component: {fileID: 4596401278570506134}
   - component: {fileID: 8521802912931488767}
   - component: {fileID: 265363479253542431}
+  - component: {fileID: 4601997893850039313}
   m_Layer: 0
   m_Name: Bed 1
   m_TagString: Untagged
@@ -195,6 +210,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4601997893850039313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8533006267421867730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.805484, y: 0.66364425, z: 2.390516}
+  m_Center: {x: 0.00000011920929, y: 0.33133265, z: 0}
 --- !u!1 &8606050370538899687
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +234,7 @@ GameObject:
   - component: {fileID: 3389776564667013884}
   - component: {fileID: 3940670159848279902}
   - component: {fileID: 2245261515894443671}
+  - component: {fileID: 8156253175113475658}
   m_Layer: 0
   m_Name: Pillow_L
   m_TagString: Untagged
@@ -276,3 +305,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8156253175113475658
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8606050370538899687}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.810506, y: 0.13846733, z: 0.40244305}
+  m_Center: {x: 0, y: 0, z: 0}
