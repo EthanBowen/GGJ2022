@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 551073780301602718}
   - component: {fileID: 3803089629005651665}
   - component: {fileID: 5455366287524447909}
+  - component: {fileID: 2472558778489986957}
   m_Layer: 10
   m_Name: Conditioner
   m_TagString: Untagged
@@ -277,3 +278,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &2472558778489986957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357237063391042823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.057023674, y: 0.21758342, z: 0.057216078}
+  m_Center: {x: -0.000288561, y: 0.10879171, z: 0}

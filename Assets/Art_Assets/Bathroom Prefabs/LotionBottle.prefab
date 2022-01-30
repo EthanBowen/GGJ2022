@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8081895856233912754}
   - component: {fileID: 589707859391753028}
   - component: {fileID: 3822128385426883105}
+  - component: {fileID: 373857496009078365}
   m_Layer: 10
   m_Name: LotionBottle
   m_TagString: Untagged
@@ -277,3 +278,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &373857496009078365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2972159186371191203}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13317661, y: 0.18791354, z: 0.069143355}
+  m_Center: {x: 0.000000007450581, y: 0.09395677, z: -0.0000000037252903}

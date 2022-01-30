@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5942338552753659002}
   - component: {fileID: 4402233318224634590}
   - component: {fileID: 5286527109201691345}
+  - component: {fileID: 2433609000196298774}
   m_Layer: 10
   m_Name: Shampoo
   m_TagString: Untagged
@@ -277,3 +278,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &2433609000196298774
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114484024328206739}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0662577, y: 0.19257456, z: 0.06664248}
+  m_Center: {x: 0.000096194446, y: 0.09628728, z: 0.00009618141}

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7345275279852511627}
   - component: {fileID: 2913245274421136472}
   - component: {fileID: 8478538039817384057}
+  - component: {fileID: 791945980589207087}
   m_Layer: 10
   m_Name: Razor
   m_TagString: Untagged
@@ -277,3 +278,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &791945980589207087
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318004711170438080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011850389, y: 0.012661668, z: 0.13430348}
+  m_Center: {x: -0.00006014388, y: 0.003148783, z: 0.000057667494}
