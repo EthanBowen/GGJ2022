@@ -8,6 +8,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
@@ -34,11 +35,14 @@ public class PlayerMovement : MonoBehaviour
     // Used for collision handling
     Vector3 lastPosBeforeCollision = Vector3.zero;
 
-    
+    public XRDirectInteractor LeftHand;
+    public XRDirectInteractor RightHand;
 
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
+
         // Create a list of viable controllers used for movement inputs
         List<InputDevice> Controllers = new List<InputDevice>();
         InputDeviceCharacteristics ControllerDeviceCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller;
@@ -126,5 +130,9 @@ public class PlayerMovement : MonoBehaviour
         return hasHit;
     }
 
+    private void OnDestroy()
+    {
+       // RightHand.se
+    }
 
 }

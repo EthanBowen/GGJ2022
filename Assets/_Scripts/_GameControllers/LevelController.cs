@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour
 {
@@ -25,10 +26,17 @@ public class LevelController : MonoBehaviour
     [SerializeField]
     private List<GameObject> PartyTime;
 
+    private GameController GC;
+
     // Start is called before the first frame update
     void Start()
     {
-        if(potentialRelics.Count > 0)
+        //GameObject.Find("PlayerController").transform.position = new Vector3(0, 0, 0);
+        GC = GameObject.Find("GameController").GetComponent<GameController>();
+
+        GC.ReceneterPlayer();
+
+        if (potentialRelics.Count > 0)
         {
 
             int rand = Random.Range(0, potentialRelics.Count);
@@ -37,6 +45,10 @@ public class LevelController : MonoBehaviour
             IT.locations = locations;
 
             VictoryListener = relic.GetComponent<XRGrabInteractable>();
+
+            GC.DisableCollection();
+
+            GC.CurrentObjective = relic;
         }
     }
 
@@ -53,6 +65,9 @@ public class LevelController : MonoBehaviour
     {
         won = true;
         DontDestroyOnLoad(relic);
+        //relic.GetComponent<XRGrabInteractable>().se
+        GC.AddRelicToCollection();
+        relic.SetActive(false);
         soundEffects.Play();
 
         foreach(GameObject GO in PartyTime)
@@ -64,6 +79,13 @@ public class LevelController : MonoBehaviour
             ImVeryTiredAndJustWantToMessAroundAtThisPointPleaseDontHateMeForMyPoorCodingPractices.PlayOneShot(popperNoise);
             ImVeryTiredAndJustWantToMessAroundAtThisPointPleaseDontHateMeForMyPoorCodingPractices.Play();
         }
+
+        LoadMainMenu();
+    }
+
+    private void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     
