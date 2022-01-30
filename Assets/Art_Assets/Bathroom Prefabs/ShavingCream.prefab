@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 535591807867633410}
   - component: {fileID: 7687345051802532472}
   - component: {fileID: 5146664521137334523}
+  - component: {fileID: 4262795893636829535}
   m_Layer: 10
   m_Name: ShavingCream
   m_TagString: Untagged
@@ -277,3 +278,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &4262795893636829535
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2714140143557847324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.066060916, y: 0.1192244, z: 0.06606094}
+  m_Center: {x: 0.00006701052, y: 0.0596122, z: -0.00006701425}

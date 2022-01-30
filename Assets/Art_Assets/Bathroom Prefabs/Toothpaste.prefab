@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2889553157081776500}
   - component: {fileID: 5645327179615447678}
   - component: {fileID: 8317925054706352405}
+  - component: {fileID: 8854944648087004877}
   m_Layer: 10
   m_Name: Toothpaste
   m_TagString: Untagged
@@ -278,3 +279,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &8854944648087004877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218920809363953108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04707521, y: 0.027683763, z: 0.1823496}
+  m_Center: {x: 0.00008368306, y: 0.013841881, z: 0.027320571}

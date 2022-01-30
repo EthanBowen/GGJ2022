@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2042734067162939475}
   - component: {fileID: 5066513397790347007}
   - component: {fileID: 7995033243446771139}
+  - component: {fileID: 9071009744425975813}
   m_Layer: 10
   m_Name: Toothbrush
   m_TagString: Untagged
@@ -276,3 +277,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4cfd2d53209498419d5e4dd90a187e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &9071009744425975813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072400808889420572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011686712, y: 0.008888951, z: 0.22253004}
+  m_Center: {x: -0.0000000013969839, y: 0.0044444753, z: 0.002775982}
