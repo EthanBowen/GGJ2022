@@ -15,12 +15,12 @@ D:/Temp/GGJ2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61602
+64141
 Successfully changed project path to: D:/Temp/GGJ2022
 D:/Temp/GGJ2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.72 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 1.80 ms.
+Refreshing native plugins compatible for Editor in 71.66 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.76 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Temp/GGJ2022/Assets
@@ -35,28 +35,28 @@ Initialize mono
 Mono path[0] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Temp/UnityHub/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000826 seconds.
+Registered in 0.000854 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.04 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 58.80 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.452 seconds
+- Completed reload, in  0.449 seconds
 Domain Reload Profiling:
-	ReloadAssembly (452ms)
+	ReloadAssembly (449ms)
 		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (357ms)
+		EndReloadAssembly (354ms)
 			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (114ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (22ms)
 			SetupLoadedEditorAssemblies (149ms)
@@ -73,10 +73,10 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008606 seconds.
+Registered in 0.008207 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.47 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 61.07 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -98,28 +98,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  1.007 seconds
 Domain Reload Profiling:
-	ReloadAssembly (983ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
+			SetupTypeCache (282ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (339ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (347ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (187ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (190ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -129,14 +129,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.09 ms.
 Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 166.8 MB.
+System memory in use before: 166.9 MB.
 System memory in use after: 167.1 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4431.
-Total: 3.009900 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.183400 ms MarkObjects: 2.506400 ms  DeleteObjects: 0.074000 ms)
+Total: 3.033600 ms (FindLiveObjects: 0.297400 ms CreateObjectMapping: 0.230700 ms MarkObjects: 2.444000 ms  DeleteObjects: 0.060800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,49 +151,1145 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92c211e108f003064e521fae224fbcb') in 0.178398 seconds 
-  Import took 0.200033 seconds .
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefa53c17bc4f2037e2e8e852f8a32b2') in 0.163052 seconds 
+  Import took 0.167953 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.221659 seconds.
-  path: Assets/_Materials/FlatColors/Blue.mat
-  artifactKey: Guid(8de5344d29feabd4ab594977b2f58e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Materials/FlatColors/Blue.mat using Guid(8de5344d29feabd4ab594977b2f58e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee113e4b8d280bdde8d9c7f02b8ddd8') in 0.026099 seconds 
-  Import took 0.030971 seconds .
+  Time since last request: 0.000172 seconds.
+  path: Assets/_Materials/Particles/BaseParticle.mat
+  artifactKey: Guid(212e272838d241241b8f6d31d0889fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Particles/BaseParticle.mat using Guid(212e272838d241241b8f6d31d0889fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b125dc1c06809f45d2f6a92a469f66') in 0.021997 seconds 
+  Import took 0.026994 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 37.220570 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/OvenBase.prefab
-  artifactKey: Guid(a93a34499482c0a488aa0d5da37d65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/OvenBase.prefab using Guid(a93a34499482c0a488aa0d5da37d65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2276cec47e28e979e415630bd60cd037') in 0.016403 seconds 
-  Import took 0.021627 seconds .
+  Time since last request: 0.000133 seconds.
+  path: Assets/_Particles
+  artifactKey: Guid(81c1ffd3fd5539e4e9491bdc4f53298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles using Guid(81c1ffd3fd5539e4e9491bdc4f53298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10056678cc574961af2781ab519e3a2') in 0.004778 seconds 
+  Import took 0.009161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.751897 seconds.
-  path: Assets/Art_Assets/Mat_Kitchen/UpperCabinet.fbx
-  artifactKey: Guid(95c515da4709b8346809739aa85c137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Mat_Kitchen/UpperCabinet.fbx using Guid(95c515da4709b8346809739aa85c137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c99ce5fef060df796951ab8c6440939') in 0.051053 seconds 
-  Import took 0.063673 seconds .
+  Time since last request: 61.248425 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4453a3d6b33eb97c6adb93b6a3919516') in 0.006679 seconds 
+  Import took 0.011626 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.692005 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Top_Cabinets.prefab
-  artifactKey: Guid(026156087c04a794f8055f550a461569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Top_Cabinets.prefab using Guid(026156087c04a794f8055f550a461569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab759c043c3f47ae57d560c95ef4e0ec') in 0.016894 seconds 
-  Import took 0.022052 seconds .
+  Time since last request: 1.990118 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbd5edc725d360269351f7d717cb94b') in 0.006847 seconds 
+  Import took 0.011880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.707569 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Plate.prefab
-  artifactKey: Guid(08d195eac209bae45bae45d42b627aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Plate.prefab using Guid(08d195eac209bae45bae45d42b627aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a9d9698d4d3848bf7ec496485262e3') in 0.017948 seconds 
-  Import took 0.023283 seconds .
+  Time since last request: 2.229947 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f0b49479ee4f5d59f878e24f941f96') in 0.006561 seconds 
+  Import took 0.025434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.414833 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43eeda8f8a19628d736f32696a385ff0') in 0.006808 seconds 
+  Import took 0.011826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.610200 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0777a3f82bef937a46f421a35196ca') in 0.006608 seconds 
+  Import took 0.011806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.209539 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201c0298753760df195c73d7ff0f9bb') in 0.006750 seconds 
+  Import took 0.011796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.877270 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1f6a4486758f4117fa4d7ee1ba1ee5') in 0.006584 seconds 
+  Import took 0.011565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.433117 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280b67fb6ab90e5df5da8b08d6d5baa') in 0.006638 seconds 
+  Import took 0.012012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999143 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f78e25e8578ad75beff1347e0e32747') in 0.010260 seconds 
+  Import took 0.015233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.819813 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91ae5808c6e72c215089852fad22de8') in 0.006528 seconds 
+  Import took 0.011436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.611284 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22069d9eb77df911eb3f15d0cd73d6c4') in 0.006723 seconds 
+  Import took 0.011682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.535714 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb175f49a98db27488b60fea7dfbba2f') in 0.006618 seconds 
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.294769 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512a820c1fe81cfb2a0a3bdcca12b3a1') in 0.006689 seconds 
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.638763 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31cd1998551f63c0da9f7f4666d7521') in 0.006541 seconds 
+  Import took 0.011512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.005126 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64181d83d69da2621eb489d3f6d72cb') in 0.006639 seconds 
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.040655 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621f40f65e7190d9a3fb30538fe4d667') in 0.006743 seconds 
+  Import took 0.011755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.027852 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8db4a10e7ece086953a38f5c22aafba') in 0.006368 seconds 
+  Import took 0.011440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.819643 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b946390290b6d8482efcd84ffdc88bde') in 0.006713 seconds 
+  Import took 0.011710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.472696 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebe25020b400a68ba2f5a6c703447ff') in 0.006417 seconds 
+  Import took 0.011387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.754288 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad3dd639add3f17a635f27274ccc0d1') in 0.006357 seconds 
+  Import took 0.011527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.457791 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c9e97a7332b6b309b0054585b7bbcd') in 0.007383 seconds 
+  Import took 0.012398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.273317 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ab28c215a76a30d962ff8deb3683cd') in 0.006629 seconds 
+  Import took 0.011731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.463306 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f192c5c25b2d3807854b9aefe8ce58f') in 0.006477 seconds 
+  Import took 0.011362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.290014 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5230687badd6b621b1f9337c64f45c1') in 0.011225 seconds 
+  Import took 0.016088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.127356 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04d47b3835e4b8a74e9dd529148bb73') in 0.007177 seconds 
+  Import took 0.012162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.665158 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9679f1dbbee7287a77e96918271d48') in 0.006652 seconds 
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.675120 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c205bb5870e31a1c62b6eec4c61800e') in 0.007015 seconds 
+  Import took 0.012147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.421516 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ad9d8bffb4f14d0fe3333777600d97') in 0.006546 seconds 
+  Import took 0.011628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.838889 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3c75801eb28a0f275a07ca02ef5841') in 0.023649 seconds 
+  Import took 0.028594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.191524 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa875033567ab183b8edfa121effee96') in 0.006607 seconds 
+  Import took 0.011624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.546557 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eff798b27a698349ac8c74f1939efd') in 0.019040 seconds 
+  Import took 0.024616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.447454 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dd90e458b7973db0679c95a92d592c') in 0.006476 seconds 
+  Import took 0.011332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.039147 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b228a135c3da3a657ecc1e0821dc90f') in 0.008024 seconds 
+  Import took 0.012896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.757580 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414ca2090acd9c1cc48f84bed0326c2f') in 0.010385 seconds 
+  Import took 0.025575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.423818 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95249adfd34f695a9efce118d529159e') in 0.006898 seconds 
+  Import took 0.011984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.341220 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9ff5b3363e087d20430f642c4e5835') in 0.006849 seconds 
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.518169 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0771dd928532cf94cff630851c1c3b7') in 0.007214 seconds 
+  Import took 0.027543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.042358 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e5c38873443e4dd280a9a7ee8f6be3') in 0.006747 seconds 
+  Import took 0.011749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.237427 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a24f027e176dd99096dc7d77da3c263') in 0.006579 seconds 
+  Import took 0.011549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.514669 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00c04af7415c05a371446f8f2f21e80') in 0.006979 seconds 
+  Import took 0.012098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.335655 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803c8bde65997cd6717c29dac95acbf2') in 0.007519 seconds 
+  Import took 0.012472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.839824 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe95df22d6967de92df516243f669d46') in 0.006927 seconds 
+  Import took 0.012089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.836000 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001fb27db2a31ee632adf50c679a5891') in 0.006502 seconds 
+  Import took 0.011929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613944 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109229afaf9dbe933ecb90c7a4ec61d6') in 0.009526 seconds 
+  Import took 0.014612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.054045 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659c0731dbe0226e94c630726025faa4') in 0.007370 seconds 
+  Import took 0.012602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.330429 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1872c3b374e9016d1ad3caad85fc753') in 0.032175 seconds 
+  Import took 0.037650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.802732 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58462dce5b906af30dde07acb65c042b') in 0.006815 seconds 
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.580344 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49425384b05f22df4de7a2f9e1835b1d') in 0.007352 seconds 
+  Import took 0.012470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.588595 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad24ee341284410e8e7b0f6e5f6ae63') in 0.010990 seconds 
+  Import took 0.016051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.638290 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fd129e685a5874ddb1da79a2c5830d') in 0.007181 seconds 
+  Import took 0.012315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.872252 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54165d0d8bb961f81527f9f41a32a1d9') in 0.006565 seconds 
+  Import took 0.011953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.049951 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e47a0d0f9a06e301db8bbe693e5725d') in 0.007192 seconds 
+  Import took 0.012401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.449624 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a7d09bdf7ea1b997209b4be9767e3a') in 0.007291 seconds 
+  Import took 0.012373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.317427 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9be899384df37c1d6e31a072261d8c0') in 0.006909 seconds 
+  Import took 0.012259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.416686 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae0c62ceedb8d41bc223868420f56ec') in 0.006825 seconds 
+  Import took 0.011914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.942122 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ac36de60ff717568173ffa2ecf1a95') in 0.011456 seconds 
+  Import took 0.016584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.662795 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f42b6e97a9af5a94919dcb02cc97a07') in 0.007431 seconds 
+  Import took 0.012522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.659254 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102bef7187a068c055471d287a5fef75') in 0.006913 seconds 
+  Import took 0.012068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.132116 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515e7e6995257e591d3de7db37e9a38e') in 0.006996 seconds 
+  Import took 0.012205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.370269 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a644b6661bc3a17f8dd4467a298474c') in 0.006616 seconds 
+  Import took 0.011719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795866 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9095d401dcb05cea01e690f8f284667') in 0.007533 seconds 
+  Import took 0.012686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.638861 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0070e73a59a458bc5128cb663c0ff313') in 0.006825 seconds 
+  Import took 0.012037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.894104 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a54abb3a74e8d4cb728e3517177d96e') in 0.007162 seconds 
+  Import took 0.012399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.397122 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cd0808296bd5d8da39ad61a1cfe8e8') in 0.007297 seconds 
+  Import took 0.012415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.441147 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2119590c70b02ce552156e716a75c7e9') in 0.008257 seconds 
+  Import took 0.013274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.092233 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a82f6dd5d9ab0062e028a51b888faa') in 0.006516 seconds 
+  Import took 0.011701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.450534 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e447bb5dd1aa9ba9b26742e6a089c4e4') in 0.006809 seconds 
+  Import took 0.018999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.451254 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac758adf5a0c072b692c50ea73022be0') in 0.006977 seconds 
+  Import took 0.012112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.868803 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fd448555ebaa51a4ab2cd9273505f0') in 0.010818 seconds 
+  Import took 0.015905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.170428 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666c34a350bfea27dbd27a1ace907c32') in 0.006845 seconds 
+  Import took 0.012083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.276673 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedda9128d67d744f199f4f5f668c041') in 0.007904 seconds 
+  Import took 0.013741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.460800 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc12fc38b299076e5aff47a7f0d9b1c') in 0.006653 seconds 
+  Import took 0.011776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.622142 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884c5f8110edb0a31578e48ad408a6c0') in 0.006618 seconds 
+  Import took 0.011804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.930535 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1761843ac3d682e2b48ce8d9a06f4c41') in 0.006488 seconds 
+  Import took 0.011463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.818931 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3738c59999eab8df4db2661ed104209') in 0.006980 seconds 
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.043972 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59ee4ceb65581e63b019a292f119c99') in 0.007031 seconds 
+  Import took 0.012211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.064072 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45b318acf01266e502b8cb64be66125') in 0.008215 seconds 
+  Import took 0.013366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.507716 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9802c7f4e052c01b88b116f4a5690274') in 0.006915 seconds 
+  Import took 0.028589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.138933 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3178ab3f5269f980574819e630b67286') in 0.006578 seconds 
+  Import took 0.011579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.248022 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fec3c1a81a29b42fcdec3db825a6142') in 0.008072 seconds 
+  Import took 0.013088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.268787 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389379a19a080e1439ee061a0bcdbc4f') in 0.007894 seconds 
+  Import took 0.012884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.858578 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b24ec85b3915b280a99e79f63d9b864') in 0.006795 seconds 
+  Import took 0.011821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.513444 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e6793cd9eab56511662b68973960c8') in 0.006230 seconds 
+  Import took 0.011217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.987543 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180e63e697b11286961d893a75b8bb31') in 0.006857 seconds 
+  Import took 0.011891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.649603 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34cc9d04c8085c9e86b76b721adba41') in 0.007444 seconds 
+  Import took 0.012460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.209418 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea1321e080f70de9f737158634adf3f') in 0.006682 seconds 
+  Import took 0.011934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.561873 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77bd6f9ee135262f58b35c74ed2cc7a2') in 0.006859 seconds 
+  Import took 0.012136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.147480 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b051c09a2b45947e2d761a7566d33ffc') in 0.007905 seconds 
+  Import took 0.013045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.604534 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da018fe1974a5d4974ab6692e10e8e11') in 0.007180 seconds 
+  Import took 0.012248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.454814 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5557975a8a4abdf5419e9cefa2ee5405') in 0.006805 seconds 
+  Import took 0.011967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.093654 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d91359000513c1afc4e2a49f2aec365') in 0.006607 seconds 
+  Import took 0.011624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.602580 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b89b4d2748ca6bde55a0cf08b6d7a4') in 0.006751 seconds 
+  Import took 0.011710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.299656 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8c3175a7ccf138e0c01de238c21813') in 0.007353 seconds 
+  Import took 0.012513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.039232 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa1c003a3c92ca26e4ba9d6c4e8b46d') in 0.007214 seconds 
+  Import took 0.012569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.003038 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b0a95209df8dd689df856759bbdc62') in 0.006806 seconds 
+  Import took 0.012056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.214661 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680c8556139dc775b836359c492f9d08') in 0.006441 seconds 
+  Import took 0.011548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.732729 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaf47cdf9581b23a5d345e4c5f8e10f') in 0.007063 seconds 
+  Import took 0.012211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.861964 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa13c8f83c1d11b66ade02536b52de04') in 0.006886 seconds 
+  Import took 0.012052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.631777 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5201dae276608d779cace98424eea8d') in 0.007352 seconds 
+  Import took 0.012446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.175987 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ea0bc49dc3a3d2d359fe1b6798667f') in 0.006631 seconds 
+  Import took 0.012104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.530204 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5734b53db28ac522badea6f9257bd48e') in 0.008243 seconds 
+  Import took 0.013251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.882487 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71aafdad53235dc3f24a74a7ab14a1f') in 0.006965 seconds 
+  Import took 0.012081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.181200 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dec5ef679b817d14b42a54c1a3b4356') in 0.007068 seconds 
+  Import took 0.012165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.026319 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c213fa4fe505a1dde92d4b20b92cf83e') in 0.006799 seconds 
+  Import took 0.011787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.116449 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b879d74c4e59ce49b0ac2483b6cf32d1') in 0.007530 seconds 
+  Import took 0.012853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.885355 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad93c41bce3a310d2c618f21d25713d') in 0.006908 seconds 
+  Import took 0.012344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.282347 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a08428aa421f8039af453ed89f0970') in 0.006720 seconds 
+  Import took 0.011786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.957852 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd83e17e0e0235eecfe4698bebc37e57') in 0.006489 seconds 
+  Import took 0.027574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.823368 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ea1c9fc87b280f11c4f9e8c6b82ba8') in 0.007327 seconds 
+  Import took 0.012529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.210113 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e8460cb3cf07f6d619f613b027e76a') in 0.007794 seconds 
+  Import took 0.012896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.984213 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ca878d41ec091f1d4c9abeeaf532c3') in 0.049568 seconds 
+  Import took 0.054833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.683861 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82e67cb81d9a3273bd5ae7f133d3d96') in 0.009965 seconds 
+  Import took 0.014962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.831645 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb361a8e7328b590606d8ecb93658ab6') in 0.007354 seconds 
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.537559 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85cfd11e5260c86640275e8349875ae') in 0.007062 seconds 
+  Import took 0.012197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.098043 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344d56dad847142a321b105b9d8c91fb') in 0.006925 seconds 
+  Import took 0.012088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.106847 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b0ee2992420d2d39042b6466c8fd45') in 0.007655 seconds 
+  Import took 0.013056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.459534 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383dc7e7c37ae7ce442acfe2cd8dc23a') in 0.007742 seconds 
+  Import took 0.012807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.589511 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d321e15ced9115fec4770b4e2b0129') in 0.007136 seconds 
+  Import took 0.012224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.625208 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a01d886ae5acc9ce3c76d27ad5e89d9') in 0.006382 seconds 
+  Import took 0.011442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.833091 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aad7fad7bcd8b457d44c5f0c3c4776') in 0.006663 seconds 
+  Import took 0.011825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.607420 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3732357d61e2007da59e1afb00e0a24e') in 0.007711 seconds 
+  Import took 0.012695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.043628 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04e86b7c7d10f2109fbdcdeb00c5f1a') in 0.006856 seconds 
+  Import took 0.012720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.054366 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5781cf5bcffcf099e2309e05eade6c3a') in 0.006802 seconds 
+  Import took 0.011835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.609993 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc2e395b0cc3fdbf2f65da5e61ea5e2') in 0.006935 seconds 
+  Import took 0.012039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.011773 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a691ecf8ee8ef343f741bae6a4b616eb') in 0.007690 seconds 
+  Import took 0.012838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.663434 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc264ce14807e95d80183a98af9f51e1') in 0.006680 seconds 
+  Import took 0.029119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.856426 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8851f2a7c4f194810a06f4d7a544669a') in 0.007211 seconds 
+  Import took 0.012387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.017648 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e9b347c2aec52ae5cb189f9e7f7c79') in 0.009138 seconds 
+  Import took 0.014304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.286823 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff71bdcf9c4a259b44fbfa86c0333382') in 0.012663 seconds 
+  Import took 0.017896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.136847 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12839e8db997337c984d367b33209711') in 0.008904 seconds 
+  Import took 0.029890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.097381 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5cdea62923afbdf512affef025f08c') in 0.006997 seconds 
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.618949 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b2b8bb4451bdcd7b4e9abe04c5c8ed') in 0.006939 seconds 
+  Import took 0.024052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.031772 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e487e2f9dede80da698c2187e9402806') in 0.007104 seconds 
+  Import took 0.025240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.471948 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62800b410343c72fa29a661657518bc2') in 0.007026 seconds 
+  Import took 0.012472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.273019 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5336a4297b466df6f3322f5c58bedc') in 0.006712 seconds 
+  Import took 0.011905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.307408 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95e613d9d09983c25039552e684455f') in 0.006649 seconds 
+  Import took 0.012167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.327251 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9313b919e7630cbd16145bf1efa3dfe0') in 0.006967 seconds 
+  Import took 0.012043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.150992 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7743adda55f8fa0f83840b41c91ef30') in 0.006798 seconds 
+  Import took 0.034061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.294468 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4674121d68e959fde869b7d1fa5872') in 0.006379 seconds 
+  Import took 0.011465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.375676 seconds.
+  path: Assets/_Particles/Firework.prefab
+  artifactKey: Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Particles/Firework.prefab using Guid(2c282ab0ff988c447a243a30ee6c398e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeffcbb4d5b0b9b3bab8d164f7bf319b') in 0.009588 seconds 
+  Import took 0.014625 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
