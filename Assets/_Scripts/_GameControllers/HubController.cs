@@ -41,4 +41,9 @@ public class HubController : MonoBehaviour
     {
         SceneManager.LoadScene("L2_Bedroom");
     }
+
+    public void LoadLevel3()
+    {
+        SceneManager.LoadScene("L3_Bathroom");
+    }
 }

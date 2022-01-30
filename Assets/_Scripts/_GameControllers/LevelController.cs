@@ -41,7 +41,7 @@ public class LevelController : MonoBehaviour
 
             // Trim some items from the room for more replayability 
             int numToTrim = Mathf.FloorToInt(0.3f * potentialRelics.Count);
-            for(int i = 0; i < numToTrim; i++)
+            for(int i = 0; i < numToTrim && i < potentialRelics.Count; i++)
             {
                 int k = Random.Range(0, potentialRelics.Count);
 

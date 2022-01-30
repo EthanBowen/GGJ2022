@@ -343,7 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1929235081110849354}
   - component: {fileID: 1406471190159131679}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cab R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,7 +432,7 @@ GameObject:
   - component: {fileID: 5340303230581447666}
   - component: {fileID: 2623007009732404832}
   - component: {fileID: 3307624371938782789}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sink_Cabinet_Door_L_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8374555017698349421}
   - component: {fileID: 2393631260169836483}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Counter R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6185372644186885726}
   - component: {fileID: 1676615179357183191}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cab B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 4517317556109695927}
   - component: {fileID: 8480219019541779629}
   - component: {fileID: 5025254197953357427}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bottom_Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7764397148993727732}
   - component: {fileID: 4149210123388094065}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3262099917118913600}
   - component: {fileID: 4289865217144873174}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Counter L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -766,7 +766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5129956886164032840}
   - component: {fileID: 2522720744933490224}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Counter B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2142601605401009548}
   - component: {fileID: 3432722782471526429}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cab L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -898,7 +898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 249977490243887186}
   - component: {fileID: 4308948812742580557}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Counter F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +943,7 @@ GameObject:
   - component: {fileID: 5520326227655071483}
   - component: {fileID: 1823191895402820842}
   - component: {fileID: 8986134605422877069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sink_Cabinet_Door_R_Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1336,7 +1336,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8537171943462465173}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bathroom_Sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
