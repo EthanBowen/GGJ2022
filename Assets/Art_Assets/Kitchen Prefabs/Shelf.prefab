@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217177969197119912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4918935, y: 1.2692705, z: 0.2786488}
+  m_LocalPosition: {x: -2.4918935, y: 1.513, z: 0.2786488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7414396908366089713}
@@ -267,7 +267,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.24787536, y: 0.018300094, z: 1.162528}
-  m_Center: {x: 0.12393768, y: 0.000000004656613, z: 0.000000029802322}
+  m_Center: {x: 0.12393768, y: 0.24, z: 0.000000029802322}
 --- !u!1 &3562430356739920093
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +353,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3566994975632418584}
-  m_Mesh: {fileID: 3637440235917424982, guid: ccc11dcf2c6d4fc49bfd4e963cf08cbf, type: 3}
+  m_Mesh: {fileID: 1060596605812844936, guid: 5b2a42756e1896b4780364b624a8c2b2, type: 3}
 --- !u!23 &8739489209083260481
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -373,7 +373,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: ccc11dcf2c6d4fc49bfd4e963cf08cbf, type: 3}
+  - {fileID: -6836927550114216477, guid: 5b2a42756e1896b4780364b624a8c2b2, type: 3}
+  - {fileID: -6117155427314672978, guid: 5b2a42756e1896b4780364b624a8c2b2, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -407,7 +408,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.24787536, y: 0.01830017, z: 1.162528}
-  m_Center: {x: 0.12393768, y: -0.00000002142042, z: 0.000000029802322}
+  m_Center: {x: 0.12393768, y: 0.24, z: 0.000000029802322}
 --- !u!1 &3943707363914380544
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5376141455023416422}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4918935, y: 1.2692705, z: -0.85055244}
+  m_LocalPosition: {x: -2.4918935, y: 1.514, z: -0.85055244}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7526458004976300222}
@@ -620,7 +621,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.24787536, y: 0.018300094, z: 1.162528}
-  m_Center: {x: 0.12393768, y: 0.000000013504177, z: 0.000000029802322}
+  m_Center: {x: 0.12393768, y: 0.24, z: 0.000000029802322}
 --- !u!1 &7990578519735569949
 GameObject:
   m_ObjectHideFlags: 0
