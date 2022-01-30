@@ -15,12 +15,12 @@ D:/Temp/GGJ2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49544
+56008
 Successfully changed project path to: D:/Temp/GGJ2022
 D:/Temp/GGJ2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.43 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 1.54 ms.
+Refreshing native plugins compatible for Editor in 72.18 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.62 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Temp/GGJ2022/Assets
@@ -35,48 +35,48 @@ Initialize mono
 Mono path[0] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Temp/UnityHub/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000830 seconds.
+Registered in 0.000824 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.19 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 59.06 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.463 seconds
+- Completed reload, in  0.457 seconds
 Domain Reload Profiling:
-	ReloadAssembly (463ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (457ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (367ms)
+		EndReloadAssembly (361ms)
 			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (158ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008276 seconds.
+Registered in 0.008244 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.96 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 59.50 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -98,28 +98,28 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  0.991 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1022ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (857ms)
-			LoadAssemblies (91ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (344ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (190ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -128,15 +128,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 16 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.09 ms.
 Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 167.2 MB.
-System memory in use after: 167.4 MB.
+System memory in use after: 167.5 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4434.
-Total: 2.863100 ms (FindLiveObjects: 0.262300 ms CreateObjectMapping: 0.174400 ms MarkObjects: 2.365900 ms  DeleteObjects: 0.059900 ms)
+Total: 3.000700 ms (FindLiveObjects: 0.257200 ms CreateObjectMapping: 0.169100 ms MarkObjects: 2.514300 ms  DeleteObjects: 0.059300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,49 +151,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art_Assets/Bathroom Prefabs/Bathroom_Shelving.prefab
-  artifactKey: Guid(4d760a13165a9d349b901e25e8d5ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bathroom Prefabs/Bathroom_Shelving.prefab using Guid(4d760a13165a9d349b901e25e8d5ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d57333daa739ad3fc057d45fb63de2') in 0.160023 seconds 
-  Import took 0.164729 seconds .
+  path: Assets/Art_Assets/Bathroom Prefabs/Conditioner.prefab
+  artifactKey: Guid(35be3c22b082d434ba9ae36c0047b244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Conditioner.prefab using Guid(35be3c22b082d434ba9ae36c0047b244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21a533551390f3c587549f3a91025d0') in 0.188349 seconds 
+  Import took 0.193138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Toothbrush.prefab
+  artifactKey: Guid(d296e0bb253ba9e41a829f724cb472c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Toothbrush.prefab using Guid(d296e0bb253ba9e41a829f724cb472c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58569bb63dc7d8bb5944d1f668455c38') in 0.014485 seconds 
+  Import took 0.034998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Toothpaste.prefab
+  artifactKey: Guid(4d5c98f82b776264fb6752e5aef07dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Toothpaste.prefab using Guid(4d5c98f82b776264fb6752e5aef07dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1bdf3725bdeacbb28d6b82bfa7d567') in 0.018859 seconds 
+  Import took 0.031888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Bathroom_Sink.prefab
+  artifactKey: Guid(400776e3b2aeee245b94ae58e2277210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Bathroom_Sink.prefab using Guid(400776e3b2aeee245b94ae58e2277210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88be45554d64b25652ae5ab369d91c7') in 0.016043 seconds 
+  Import took 0.020666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/ShavingCream.prefab
+  artifactKey: Guid(f9b297e4a91ae9d4e88006c4c7e8ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/ShavingCream.prefab using Guid(f9b297e4a91ae9d4e88006c4c7e8ac05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2918f61b28b3cdc21fe99afc0fdf375') in 0.012856 seconds 
+  Import took 0.028418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/SoapBar.prefab
+  artifactKey: Guid(d35a0843e37d123458046273ac7bc4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/SoapBar.prefab using Guid(d35a0843e37d123458046273ac7bc4e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85b203c4cb502bc77aa778a9e131730') in 0.009746 seconds 
+  Import took 0.014116 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000161 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Trashcan.prefab
+  artifactKey: Guid(9d19d00f038f9b846a75e78d1a200af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Trashcan.prefab using Guid(9d19d00f038f9b846a75e78d1a200af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88ac35621094527dfdf89e11a98bc2e') in 0.010160 seconds 
+  Import took 0.025554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Mirror.prefab
+  artifactKey: Guid(fc44a82cec1f749429254c1698e6f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Mirror.prefab using Guid(fc44a82cec1f749429254c1698e6f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab12f618d1b41417845519e872593762') in 0.010207 seconds 
+  Import took 0.028507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/LaundryBasket.prefab
+  artifactKey: Guid(3a036b84ed4ffec4ba3be2f7f5cf1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/LaundryBasket.prefab using Guid(3a036b84ed4ffec4ba3be2f7f5cf1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b5419d8ff891181422c14046c9b25a') in 0.017308 seconds 
+  Import took 0.022237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Razor.prefab
+  artifactKey: Guid(08b75c43d14e91b43b9d82cdc140793e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Razor.prefab using Guid(08b75c43d14e91b43b9d82cdc140793e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb82d84ec1e72f1d0fb4703f6ad633c') in 0.009658 seconds 
+  Import took 0.014206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Shampoo.prefab
+  artifactKey: Guid(c3b3e5e1f591de34b9cd711a2a247b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Shampoo.prefab using Guid(c3b3e5e1f591de34b9cd711a2a247b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9198f55f1d38a06401f9b6b80a54ae1') in 0.009234 seconds 
+  Import took 0.022374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Toilet.prefab
+  artifactKey: Guid(3ee7a62793056f04ca733c88b4f89c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Toilet.prefab using Guid(3ee7a62793056f04ca733c88b4f89c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176b60fa0fa396deb78adea5cdec3dde') in 0.009833 seconds 
+  Import took 0.014907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/Bathrug.prefab
+  artifactKey: Guid(ece74e51015bb7f419e27f44996c61cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Bathrug.prefab using Guid(ece74e51015bb7f419e27f44996c61cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d07d6041c5e1b634ae51231db3efcb') in 0.011008 seconds 
+  Import took 0.019818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/LotionBottle.prefab
+  artifactKey: Guid(bbe4c874b6a50be40998f67853c74d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/LotionBottle.prefab using Guid(bbe4c874b6a50be40998f67853c74d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b05d7cf1924aa263a744186150393d0') in 0.012715 seconds 
+  Import took 0.019209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
   path: Assets/Art_Assets/Bathroom Prefabs/0Bathroom.prefab
   artifactKey: Guid(ea8a2810d3d86624e89f214872c2f0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bathroom Prefabs/0Bathroom.prefab using Guid(ea8a2810d3d86624e89f214872c2f0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b188142e215108c07f4f85fc0aeabb36') in 0.007129 seconds 
-  Import took 0.022712 seconds .
+Start importing Assets/Art_Assets/Bathroom Prefabs/0Bathroom.prefab using Guid(ea8a2810d3d86624e89f214872c2f0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a1acff4bfd4664c35b7261d7ed435d') in 0.011494 seconds 
+  Import took 0.033250 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.752083 seconds.
-  path: Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat
-  artifactKey: Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat using Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd157585fbf4cc696188b1b448b72c6c3') in 0.021166 seconds 
-  Import took 0.029590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.318493 seconds.
-  path: Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat
-  artifactKey: Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat using Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c3731fdbb508f30f4966ef28d6c0be') in 0.013220 seconds 
-  Import took 0.027002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Art_Assets/Bathroom_Level/Mat_Sink.mat
-  artifactKey: Guid(35106b501edbc1644a9b7a72e8e93105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bathroom_Level/Mat_Sink.mat using Guid(35106b501edbc1644a9b7a72e8e93105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298160efb4e101cda971911cbdd3dfcc') in 0.006916 seconds 
-  Import took 0.027712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.693477 seconds.
-  path: Assets/Scenes/L3_Bathroom.unity
-  artifactKey: Guid(9fb96f835ecf20049bf54cafe4ed9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/L3_Bathroom.unity using Guid(9fb96f835ecf20049bf54cafe4ed9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0a45e9418da23d25f181f22c5f97d7') in 0.001943 seconds 
-  Import took 0.021767 seconds .
+  Time since last request: 243.244265 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/LotionBottle 1.prefab
+  artifactKey: Guid(d8bed0622b5025a43b92ebcfbfc6106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/LotionBottle 1.prefab using Guid(d8bed0622b5025a43b92ebcfbfc6106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fd72e2838a52038fa50ddae35a1459') in 0.012149 seconds 
+  Import took 0.028765 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
