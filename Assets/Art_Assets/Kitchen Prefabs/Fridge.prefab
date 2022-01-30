@@ -142,7 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7810246088915502754}
   - component: {fileID: 4065662390435044695}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3941424328182316163}
   - component: {fileID: 4360975128416585907}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -670,7 +670,7 @@ GameObject:
   - component: {fileID: 331580534009932084}
   - component: {fileID: 2826358542141686969}
   - component: {fileID: 8125450148959806352}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FreezerDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1081,7 +1081,7 @@ GameObject:
   - component: {fileID: 7405625403168599280}
   - component: {fileID: 5869076767420080265}
   - component: {fileID: 4188779328017518799}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: FridgeBottomDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}

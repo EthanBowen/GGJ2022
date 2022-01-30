@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38405297508825971}
   - component: {fileID: 1921611024357392766}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 7961417304115291808}
   - component: {fileID: 5075618421682173894}
   - component: {fileID: 435928915313124317}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Blender
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -332,7 +332,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6581228950471163474}
   - component: {fileID: 3406213134883123260}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -376,7 +376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5548147339227030556}
   - component: {fileID: 8355038398776923379}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

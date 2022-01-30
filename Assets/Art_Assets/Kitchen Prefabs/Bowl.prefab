@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526572274764913843}
   - component: {fileID: 8270018565413844394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Side (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 2325914756016682195}
   - component: {fileID: -1342188276418937178}
   - component: {fileID: 1825587232097130952}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bowl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4050653227768990031}
   - component: {fileID: 2688163714187251032}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Side
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4041151866111609329}
   - component: {fileID: 5113798184365666715}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Side (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 737907573472558494}
   - component: {fileID: 4361406150104616659}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Side (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

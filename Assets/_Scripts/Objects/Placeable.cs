@@ -129,15 +129,19 @@ public class Placeable : MonoBehaviour
     {
         if (potentialHolder != null && previewObject == null)
         {
-            previewObject = Instantiate(gameObject, Vector3.zero, Quaternion.identity, potentialHolder.objPosition);
+            previewObject = new GameObject(); // Instantiate(gameObject, Vector3.zero, Quaternion.identity, potentialHolder.objPosition);
+
+            previewObject.AddComponent<MeshRenderer>();
+            MeshFilter mf = previewObject.AddComponent<MeshFilter>();
+
+            mf.mesh = gameObject.GetComponent<MeshFilter>().mesh;
 
             previewObject.layer = LayerMask.NameToLayer("PreviewHighlight");
 
-            Rigidbody rb = previewObject.GetComponent<Rigidbody>();
-            rb.isKinematic = true;
+            previewObject.transform.position = potentialHolder.objPosition.position;
+            previewObject.transform.rotation = potentialHolder.objPosition.rotation;
+            previewObject.transform.parent = potentialHolder.objPosition;
 
-            Renderer rend = previewObject.GetComponent<Renderer>();
-            //rend.material = null;
         }
     }
 
