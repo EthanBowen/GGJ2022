@@ -15,12 +15,12 @@ D:/Temp/GGJ2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54614
+49544
 Successfully changed project path to: D:/Temp/GGJ2022
 D:/Temp/GGJ2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.46 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 1.69 ms.
+Refreshing native plugins compatible for Editor in 75.43 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.54 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Temp/GGJ2022/Assets
@@ -35,48 +35,48 @@ Initialize mono
 Mono path[0] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Temp/UnityHub/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Temp/UnityHub/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000819 seconds.
+Registered in 0.000830 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.97 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 60.19 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.467 seconds
+- Completed reload, in  0.463 seconds
 Domain Reload Profiling:
-	ReloadAssembly (467ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (463ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (366ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (367ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (156ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (158ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008550 seconds.
+Registered in 0.008276 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.00 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 60.96 ms, found 16 plugins.
 Preloading 2 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -98,29 +98,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.021 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1022ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (871ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
+			SetupTypeCache (294ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (359ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -128,15 +128,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.10 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
 Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.0 MB.
-System memory in use after: 167.2 MB.
+System memory in use before: 167.2 MB.
+System memory in use after: 167.4 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4434.
-Total: 3.306300 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.160400 ms MarkObjects: 2.807500 ms  DeleteObjects: 0.070500 ms)
+Total: 2.863100 ms (FindLiveObjects: 0.262300 ms CreateObjectMapping: 0.174400 ms MarkObjects: 2.365900 ms  DeleteObjects: 0.059900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,9 +151,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/L1_Kitchen.unity
-  artifactKey: Guid(7df0f51f25ced7d4fb79a170c4f27532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/L1_Kitchen.unity using Guid(7df0f51f25ced7d4fb79a170c4f27532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdb01ce448cdc60ee1f317618ff92c3') in 0.015702 seconds 
-  Import took 0.032550 seconds .
+  path: Assets/Art_Assets/Bathroom Prefabs/Bathroom_Shelving.prefab
+  artifactKey: Guid(4d760a13165a9d349b901e25e8d5ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/Bathroom_Shelving.prefab using Guid(4d760a13165a9d349b901e25e8d5ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d57333daa739ad3fc057d45fb63de2') in 0.160023 seconds 
+  Import took 0.164729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Art_Assets/Bathroom Prefabs/0Bathroom.prefab
+  artifactKey: Guid(ea8a2810d3d86624e89f214872c2f0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom Prefabs/0Bathroom.prefab using Guid(ea8a2810d3d86624e89f214872c2f0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b188142e215108c07f4f85fc0aeabb36') in 0.007129 seconds 
+  Import took 0.022712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.752083 seconds.
+  path: Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat
+  artifactKey: Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat using Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd157585fbf4cc696188b1b448b72c6c3') in 0.021166 seconds 
+  Import took 0.029590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.318493 seconds.
+  path: Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat
+  artifactKey: Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom_Level/Bathroom_walls_Color.mat using Guid(3e4dea84694c0ca438c41f976ac269f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c3731fdbb508f30f4966ef28d6c0be') in 0.013220 seconds 
+  Import took 0.027002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Art_Assets/Bathroom_Level/Mat_Sink.mat
+  artifactKey: Guid(35106b501edbc1644a9b7a72e8e93105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bathroom_Level/Mat_Sink.mat using Guid(35106b501edbc1644a9b7a72e8e93105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298160efb4e101cda971911cbdd3dfcc') in 0.006916 seconds 
+  Import took 0.027712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.693477 seconds.
+  path: Assets/Scenes/L3_Bathroom.unity
+  artifactKey: Guid(9fb96f835ecf20049bf54cafe4ed9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/L3_Bathroom.unity using Guid(9fb96f835ecf20049bf54cafe4ed9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0a45e9418da23d25f181f22c5f97d7') in 0.001943 seconds 
+  Import took 0.021767 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
