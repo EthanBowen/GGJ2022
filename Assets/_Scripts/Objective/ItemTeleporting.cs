@@ -6,8 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 [SelectionBase]
 public class ItemTeleporting : MonoBehaviour
 {
-    [SerializeField]
-    private List<Transform> locations = new List<Transform>();
+    public List<Transform> locations = new List<Transform>();
 
     private Camera playerCamera;
     

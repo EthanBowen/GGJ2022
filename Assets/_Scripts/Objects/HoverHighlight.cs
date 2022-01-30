@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class HoverHighlight : MonoBehaviour
 {
-    LayerMask HoverHighlightLayer;
-    LayerMask StartingLayer;
+    private LayerMask HoverHighlightLayer;
+
+    private LayerMask StartingLayer;
 
     // Start is called before the first frame update
     void Start()
