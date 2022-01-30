@@ -39,6 +39,24 @@ public class LevelController : MonoBehaviour
         if (potentialRelics.Count > 0)
         {
 
+            // Trim some items from the room for more replayability 
+            int numToTrim = Mathf.FloorToInt(0.3f * potentialRelics.Count);
+            for(int i = 0; i < numToTrim; i++)
+            {
+                int k = Random.Range(0, potentialRelics.Count);
+
+                GameObject newLoc = new GameObject();
+                GameObject TempRef = potentialRelics[k];
+
+                newLoc.transform.position = TempRef.transform.position;
+                newLoc.transform.rotation = TempRef.transform.rotation;
+
+                locations.Add(newLoc.transform);
+                potentialRelics.Remove(TempRef);
+
+                Destroy(TempRef);
+            }
+
             int rand = Random.Range(0, potentialRelics.Count);
             relic = potentialRelics[rand];
             ItemTeleporting IT = relic.AddComponent<ItemTeleporting>();
