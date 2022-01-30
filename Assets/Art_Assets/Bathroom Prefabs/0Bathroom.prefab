@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4910702943510634553}
   - component: {fileID: 8117015927855102249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8826953655962841872}
   - component: {fileID: 1564351188469558980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9022480040576118286}
   - component: {fileID: 1992299360568623899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6319137731675013951}
   - component: {fileID: 6483706570405506150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2917077722472714018}
   - component: {fileID: 1458537014348381488}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4865672075201052125}
   - component: {fileID: 3167453188357667819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -365,7 +365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4291665776667528721}
   - component: {fileID: 8535094112775344507}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tub
   m_TagString: Untagged
   m_Icon: {fileID: 0}

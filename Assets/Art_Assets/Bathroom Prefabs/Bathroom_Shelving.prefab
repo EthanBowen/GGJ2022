@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3188717829565596678}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2593876732178440187}
   - component: {fileID: 6324898427787167973}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bar (L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9192756001711656886}
   - component: {fileID: 4831709650273178958}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shelf (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 513794915068415310}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 3682008907326607759}
   - component: {fileID: 339674337248927274}
   - component: {fileID: 2545153138665007840}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bathroom_Shelving
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,7 +251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6487506277694712229}
   - component: {fileID: 5800472788604917153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bar (L)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6120211102961597491}
   - component: {fileID: 7744427367107241620}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bar (R)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8526085669887607784}
   - component: {fileID: 408974540251125901}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shelf (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1127519629940600399}
   - component: {fileID: 7517379566444259945}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shelf (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -429,7 +429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4379866431936717564}
   - component: {fileID: 7870444359716744324}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bar (R)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

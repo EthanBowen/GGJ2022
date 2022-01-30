@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 847802235740844907}
   - component: {fileID: 3181521479368804257}
   - component: {fileID: 697584723729706950}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bathrug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
