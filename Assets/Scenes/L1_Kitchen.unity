@@ -831,6 +831,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 662692675833365245, guid: c9347a17ee04157429fa9e23083bd51b,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 5551418225153903260, guid: 4c7fd4e4731a7b84a8e43dd7475f9bd3,
+        type: 3}
     - target: {fileID: 2179853246142389825, guid: c9347a17ee04157429fa9e23083bd51b,
         type: 3}
       propertyPath: m_RootOrder
@@ -891,6 +897,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: 0Room
       objectReference: {fileID: 0}
+    - target: {fileID: 7499855911649928451, guid: c9347a17ee04157429fa9e23083bd51b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 4c7fd4e4731a7b84a8e43dd7475f9bd3,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9347a17ee04157429fa9e23083bd51b, type: 3}
 --- !u!1 &365229347
