@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/*
+ * Code by Ethan Bowen
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -74,5 +78,4 @@ public class ObjectHolder : MonoBehaviour
         if (heldObj)
             heldObj.GetComponent<Placeable>().RemoveFromHolder();
     }
-
 }

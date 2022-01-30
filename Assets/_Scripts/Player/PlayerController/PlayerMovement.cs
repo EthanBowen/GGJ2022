@@ -1,7 +1,7 @@
 /* 
+ * Based on code by Valem found here: https://www.youtube.com/watch?v=5NRTT8Tbmoc
  * 
- * 
- * 
+ * Edit by Ethan Bowen
  */
 
 using System.Collections;

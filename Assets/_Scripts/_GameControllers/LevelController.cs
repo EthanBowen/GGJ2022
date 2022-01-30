@@ -1,3 +1,7 @@
+/*
+ * Code by Ethan Bowen
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
