@@ -23,6 +23,8 @@ public class Placeable : MonoBehaviour
 
     private Transform initialParent;
 
+    private GameObject previewObject;
+
     private void Awake()
     {
         readyToBeHeld = true;
@@ -45,6 +47,8 @@ public class Placeable : MonoBehaviour
             if (temp != null && temp.readyToHold && temp.CanHold(objectTag))
                 potentialHolder = temp;
 
+            PreviewInPotentialHolder();
+
             // If not currently being selected by XR Interactor then attempt to place self
             if(!interactable.isSelected)
             {
@@ -58,6 +62,7 @@ public class Placeable : MonoBehaviour
     {
         if (potentialHolder != null && other.gameObject.Equals(potentialHolder.gameObject))
         {
+            StopPreview();
             potentialHolder = null;
         }
     }
@@ -77,6 +82,8 @@ public class Placeable : MonoBehaviour
             objectHolder = potentialHolder;
 
             objectHolder.HoldObject(this);
+
+            StopPreview();
 
             output = true;
         }
@@ -116,5 +123,30 @@ public class Placeable : MonoBehaviour
         }
 
         return false;
+    }
+
+    public void PreviewInPotentialHolder()
+    {
+        if (potentialHolder != null && previewObject == null)
+        {
+            previewObject = Instantiate(gameObject, Vector3.zero, Quaternion.identity, potentialHolder.objPosition);
+
+            previewObject.layer = LayerMask.NameToLayer("PreviewHighlight");
+
+            Rigidbody rb = previewObject.GetComponent<Rigidbody>();
+            rb.isKinematic = true;
+
+            Renderer rend = previewObject.GetComponent<Renderer>();
+            //rend.material = null;
+        }
+    }
+
+    public void StopPreview()
+    {
+        if(previewObject != null)
+        {
+            GameObject.Destroy(previewObject);
+            previewObject = null;
+        }
     }
 }

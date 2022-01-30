@@ -16,6 +16,8 @@ public class ObjectHolder : MonoBehaviour
 
     private Transform heldObjOriginalParent;
 
+    
+
     void Start()
     {
         if (objPosition == null)
@@ -72,4 +74,5 @@ public class ObjectHolder : MonoBehaviour
         if (heldObj)
             heldObj.GetComponent<Placeable>().RemoveFromHolder();
     }
+
 }
