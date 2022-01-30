@@ -5,23 +5,34 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameController : MonoBehaviour
 {
+
     [SerializeField]
     private List<GameObject> potentialRelics;
+    private GameObject relic;
 
     [SerializeField]
     private List<Transform> locations;
 
     private XRGrabInteractable VictoryListener;
 
-    bool won = false;
+    [SerializeField]
+    private AudioSource soundEffects; 
+    [SerializeField]
+    private AudioClip popperNoise;
+
+    public bool won = false;
+
+    [SerializeField]
+    private List<GameObject> PartyTime;
 
     // Start is called before the first frame update
     void Start()
     {
         if(potentialRelics.Count > 0)
         {
+
             int rand = Random.Range(0, potentialRelics.Count);
-            GameObject relic = potentialRelics[rand];
+            relic = potentialRelics[rand];
             ItemTeleporting IT = relic.AddComponent<ItemTeleporting>();
             IT.locations = locations;
 
@@ -40,6 +51,18 @@ public class GameController : MonoBehaviour
 
     public void Victory()
     {
+        won = true;
+        DontDestroyOnLoad(relic);
+        soundEffects.Play();
 
+        foreach(GameObject GO in PartyTime)
+        {
+            ParticleSystem LetMeTellYouALittleSomethingAboutUnityParticleSystems = GO.GetComponent<ParticleSystem>();
+            LetMeTellYouALittleSomethingAboutUnityParticleSystems.Play();
+
+            AudioSource ImVeryTiredAndJustWantToMessAroundAtThisPointPleaseDontHateMeForMyPoorCodingPractices = GO.GetComponent<AudioSource>();
+            ImVeryTiredAndJustWantToMessAroundAtThisPointPleaseDontHateMeForMyPoorCodingPractices.PlayOneShot(popperNoise);
+            ImVeryTiredAndJustWantToMessAroundAtThisPointPleaseDontHateMeForMyPoorCodingPractices.Play();
+        }
     }
 }
