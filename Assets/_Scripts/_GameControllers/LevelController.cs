@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class GameController : MonoBehaviour
+public class LevelController : MonoBehaviour
 {
 
     [SerializeField]
@@ -65,4 +65,6 @@ public class GameController : MonoBehaviour
             ImVeryTiredAndJustWantToMessAroundAtThisPointPleaseDontHateMeForMyPoorCodingPractices.Play();
         }
     }
+
+    
 }
