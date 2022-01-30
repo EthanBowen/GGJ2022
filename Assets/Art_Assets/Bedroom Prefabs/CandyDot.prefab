@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6789430714806104357}
   - component: {fileID: 486480632112587123}
   - component: {fileID: 6948948489655685003}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CandyDot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

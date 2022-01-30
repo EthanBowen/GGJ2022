@@ -15,12 +15,12 @@ C:/Users/MJgal/Documents/GitHub/GGJ2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61346
+52553
 Successfully changed project path to: C:/Users/MJgal/Documents/GitHub/GGJ2022
 C:/Users/MJgal/Documents/GitHub/GGJ2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.58 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 2.42 ms.
+Refreshing native plugins compatible for Editor in 87.65 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 2.33 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/MJgal/Documents/GitHub/GGJ2022/Assets
@@ -35,52 +35,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001422 seconds.
+Registered in 0.001488 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.68 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
+Refreshing native plugins compatible for Editor in 77.29 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.557 seconds
+- Completed reload, in  0.569 seconds
 Domain Reload Profiling:
-	ReloadAssembly (557ms)
-		BeginReloadAssembly (40ms)
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (452ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (460ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (206ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009412 seconds.
+Registered in 0.009384 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.14 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.15 ms.
+Refreshing native plugins compatible for Editor in 78.28 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -101,29 +101,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
+- Completed reload, in  1.234 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1148ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1235ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (972ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (1052ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (308ms)
+			SetupTypeCache (352ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (416ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (442ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -131,15 +131,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.16 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.53 ms.
 Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 166.7 MB.
 System memory in use after: 166.9 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4431.
-Total: 5.006900 ms (FindLiveObjects: 0.471700 ms CreateObjectMapping: 0.285800 ms MarkObjects: 4.156600 ms  DeleteObjects: 0.090600 ms)
+Total: 4.723400 ms (FindLiveObjects: 0.510100 ms CreateObjectMapping: 0.251200 ms MarkObjects: 3.870900 ms  DeleteObjects: 0.089300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,864 +154,1768 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d780b26399da1038e218c23c08eb50') in 0.201628 seconds 
-  Import took 0.208559 seconds .
+  path: Assets/Art_Assets/Bedroom Prefabs/CandyDot.prefab
+  artifactKey: Guid(9d41fac30d0b6d14d94ea452a9811f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/CandyDot.prefab using Guid(9d41fac30d0b6d14d94ea452a9811f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8b36356e23941d9f22ffaa9fb220da') in 0.282050 seconds 
+  Import took 0.289729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/BaseballCap.prefab
+  artifactKey: Guid(7794f19b15053e24798f7a11aef23c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/BaseballCap.prefab using Guid(7794f19b15053e24798f7a11aef23c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5114761bf66d657178d311976441d9d') in 0.021178 seconds 
+  Import took 0.028806 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000306 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feaf0e7e8923e352a400d20471382ca') in 0.030635 seconds 
-  Import took 0.037230 seconds .
+  path: Assets/Art_Assets/Bedroom Prefabs/AlarmClock.prefab
+  artifactKey: Guid(935078c837fb6ef4f9c9b3aa9a2876ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/AlarmClock.prefab using Guid(935078c837fb6ef4f9c9b3aa9a2876ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a3b1d92fa64a0c3b9c143b2c3e9114') in 0.023526 seconds 
+  Import took 0.032109 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Fork.prefab
-  artifactKey: Guid(474a14b027e888e4394e7da1d5a03b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Fork.prefab using Guid(474a14b027e888e4394e7da1d5a03b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c6e7cd709bce98b1d7b2e2926aecf0') in 0.039959 seconds 
-  Import took 0.045948 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaae81553baeb42f372cd4a770342f79') in 0.022130 seconds 
+  Import took 0.029855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/OvenBase.prefab
-  artifactKey: Guid(a93a34499482c0a488aa0d5da37d65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/OvenBase.prefab using Guid(a93a34499482c0a488aa0d5da37d65a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ef5adb6d7b8d3bf783d7b393300045') in 0.017753 seconds 
-  Import took 0.025378 seconds .
+  Time since last request: 0.000292 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c79ff1887f698b98435d339c3ad1518') in 0.020105 seconds 
+  Import took 0.027282 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359459d88ebf1a13f171346d7035fbd9') in 0.016558 seconds 
-  Import took 0.024960 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Book.prefab
+  artifactKey: Guid(d0ea63be0402f8e418e457b285d8b3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Book.prefab using Guid(d0ea63be0402f8e418e457b285d8b3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bdb5a6c7f0ef1ca688fa851216922f') in 0.019016 seconds 
+  Import took 0.025799 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65849a5336ff5a1fa381eda4584753ae') in 0.014028 seconds 
-  Import took 0.021578 seconds .
+  Time since last request: 0.000407 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc0604d5afb80a9bd3b3b646da5eee3') in 0.020376 seconds 
+  Import took 0.030061 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 73.952085 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef352775996632862dd331f857a3a13') in 0.013308 seconds 
-  Import took 0.020693 seconds .
+  Time since last request: 47.897714 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c44401cf1c6384fd17ec2eba8e524a') in 0.012771 seconds 
+  Import took 0.019874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.374750 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4117252ff2fd257f640ac451d4a7824e') in 0.012629 seconds 
-  Import took 0.020474 seconds .
+  Time since last request: 4.783917 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5266d3b5f8c73e611fbd619d2c7dcc69') in 0.013940 seconds 
+  Import took 0.021420 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.597785 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efda25863dcdd15609b2fa787da80eae') in 0.012118 seconds 
-  Import took 0.019278 seconds .
+  Time since last request: 0.583005 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04df00c920888e6bb08dc2574fd4a8b') in 0.012752 seconds 
+  Import took 0.019729 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.995141 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0004b8eae1918dc9601c57ea1dbe1e2a') in 0.013083 seconds 
-  Import took 0.019633 seconds .
+  Time since last request: 2.952333 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8815a11e3b8b42c1062e21dc9af0df3') in 0.012355 seconds 
+  Import took 0.020434 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.326278 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad9e0435a49b3ebdd7b6cf99c1b5c4c') in 0.012542 seconds 
-  Import took 0.019547 seconds .
+  Time since last request: 2.229234 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d72d84cee7ea00ab9a7bc111e7d312') in 0.012236 seconds 
+  Import took 0.019415 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.341526 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2951d6421ee9a359242de86f643f2f3e') in 0.012044 seconds 
-  Import took 0.019447 seconds .
+  Time since last request: 11.310776 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d66701b238560ccccd3b58bd33006a9') in 0.015630 seconds 
+  Import took 0.023640 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.581436 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceac97f603ff7f9e3301645e11d4a192') in 0.012072 seconds 
-  Import took 0.019249 seconds .
+  Time since last request: 2.199773 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10cb767b1487a5fbc0b4cc0bdf694c4') in 0.013272 seconds 
+  Import took 0.021229 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.265806 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221a204ba1fde2edd8c3b42f1640dd4f') in 0.013661 seconds 
-  Import took 0.020567 seconds .
+  Time since last request: 0.784930 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7934a610467e43dfaa66fe1d010fd122') in 0.013003 seconds 
+  Import took 0.020615 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.352642 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a94f923591975674100503da06bcb2a') in 0.012284 seconds 
-  Import took 0.018928 seconds .
+  Time since last request: 1.872842 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b0f57f9d34ee1a56c1acdcac9d8898') in 0.016727 seconds 
+  Import took 0.023957 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.672598 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de7b02b070e8bb008904e1021ee1cd3') in 0.013801 seconds 
-  Import took 0.020179 seconds .
+  Time since last request: 2.227664 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaf20279b036e42283d4dbb0464f009') in 0.013705 seconds 
+  Import took 0.021646 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.554148 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86829f595778d8de8c09f81297767c3') in 0.016441 seconds 
-  Import took 0.022842 seconds .
+  Time since last request: 3.539474 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d705bf902a2002e54056c15485b7e1e') in 0.013113 seconds 
+  Import took 0.020137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.238048 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6e77d096bcdcdeafbdf4e539cd2213') in 0.015421 seconds 
-  Import took 0.023475 seconds .
+  Time since last request: 2.876844 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b7d533405167be4c400f0641b6d508') in 0.012109 seconds 
+  Import took 0.019710 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.283293 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d51b659e8faf1d9e18a446029854549') in 0.015835 seconds 
-  Import took 0.025523 seconds .
+  Time since last request: 3.231671 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a26e9f4ac2b45d7f80b7f40d1058ae') in 0.012075 seconds 
+  Import took 0.019474 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.323462 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0928ffd34a44c838f0c531563c6c2241') in 0.012426 seconds 
-  Import took 0.019652 seconds .
+  Time since last request: 2.166740 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de7956622d97e9e97c8e7d205ecdd97') in 0.012442 seconds 
+  Import took 0.020869 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.859368 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Knife.prefab
-  artifactKey: Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Knife.prefab using Guid(b6e243d383058cd46b7c4edb54ce97cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3352ad653304cff456ff9ce9369411e1') in 0.012525 seconds 
-  Import took 0.019911 seconds .
+  Time since last request: 7.030147 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663fb565e296431125eb0c83cd671dd0') in 0.013625 seconds 
+  Import took 0.021227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.887677 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cf50e7b0310b7661b7ac3608b39a81') in 0.012933 seconds 
-  Import took 0.020509 seconds .
+  Time since last request: 3.405201 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4cd60ba42b53a7f0a87e3baddd7174') in 0.013416 seconds 
+  Import took 0.020971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.237817 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1c4330e1f2306aeea6c2d0c2aba15b') in 0.013363 seconds 
-  Import took 0.020457 seconds .
+  Time since last request: 0.586897 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744343b0d66da104617673cc518fd342') in 0.013459 seconds 
+  Import took 0.021060 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.425067 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728f1fce21e9e83926e148dc101cb3bc') in 0.012892 seconds 
-  Import took 0.020248 seconds .
+  Time since last request: 2.610065 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c492fb5ffad6df29e5dba0c71f8f6b88') in 0.014141 seconds 
+  Import took 0.021955 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.787935 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f080c02fd66423531a80f73964b5086') in 0.012510 seconds 
-  Import took 0.019194 seconds .
+  Time since last request: 1.584232 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be9e674581521b1779b0404bae18e16') in 0.012654 seconds 
+  Import took 0.020285 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.458017 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc29e8c252bf3b83602e8e99863b723') in 0.012778 seconds 
-  Import took 0.019982 seconds .
+  Time since last request: 1.996509 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653131d59ffbb6707c3bea7148538ee6') in 0.017766 seconds 
+  Import took 0.025583 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.306788 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbfa3432f7f01a965a8291183718516') in 0.011892 seconds 
-  Import took 0.018945 seconds .
+  Time since last request: 1.990197 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4df4d90cb3722e87f9368d5b18c7c0') in 0.013273 seconds 
+  Import took 0.020714 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.846756 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e8fea152e39678a4cc35d08ab9f25d') in 0.012986 seconds 
-  Import took 0.019964 seconds .
+  Time since last request: 1.686905 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3172506805cb844f8d3ece8f67b26cb') in 0.014946 seconds 
+  Import took 0.022592 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.427002 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c260c73cfdcfdc6b8ec8499409e27b1') in 0.012805 seconds 
-  Import took 0.020018 seconds .
+  Time since last request: 1.630468 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9de844f8e7dc5f1bc023947d4b7eb12') in 0.014385 seconds 
+  Import took 0.021730 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.610265 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0cc516cb86bcfc82ff03b7f2a6b393') in 0.012332 seconds 
-  Import took 0.019092 seconds .
+  Time since last request: 7.845638 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327340eb54c7db7a656d198913b47d64') in 0.012568 seconds 
+  Import took 0.019886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.838276 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11993e87612d31db75641326df9f72b2') in 0.012268 seconds 
-  Import took 0.019908 seconds .
+  Time since last request: 2.854960 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4ef3494369cdd08f1e70b4dd0765cc') in 0.013116 seconds 
+  Import took 0.021243 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.275640 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd306cfd38bf6ec8241dc9bed4af1d50c') in 0.012669 seconds 
-  Import took 0.019674 seconds .
+  Time since last request: 2.171961 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d4caa1f251cb4fdd9f9cecb38f89e6') in 0.014094 seconds 
+  Import took 0.022863 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.182153 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b250f1a892e654f8564a44e263337bf') in 0.013809 seconds 
-  Import took 0.020496 seconds .
+  Time since last request: 3.204099 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8c9245750cb7effd2bf8c40190f771') in 0.014206 seconds 
+  Import took 0.022144 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.278869 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8228d82c3c2183de192296b138cffbb0') in 0.012887 seconds 
-  Import took 0.020284 seconds .
+  Time since last request: 3.357320 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af5f9219744e2dedf415ebf347d96c6') in 0.014131 seconds 
+  Import took 0.022296 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.693021 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pan.prefab
-  artifactKey: Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pan.prefab using Guid(0881a1cb5e764ae46b10e5de98fa7525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d3ede236d59c444d952e23779f534c') in 0.012345 seconds 
-  Import took 0.020458 seconds .
+  Time since last request: 26.340538 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e49d33fc25e00ce6847c798edc33238') in 0.012661 seconds 
+  Import took 0.019956 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.095985 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7279d1498c9d9f51dbdea36d3ba912') in 0.013105 seconds 
-  Import took 0.020595 seconds .
+  Time since last request: 2.188028 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c782cbef936323f52571a99a9964c7') in 0.015706 seconds 
+  Import took 0.023651 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.979369 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893ddcdff6a3b4ae4f21e81bd01d6778') in 0.012886 seconds 
-  Import took 0.020053 seconds .
+  Time since last request: 0.779382 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638b675819f283ac047a0dcb3708bc70') in 0.012698 seconds 
+  Import took 0.020331 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.601320 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9870cffbcbe9a9363683468c435a609') in 0.011924 seconds 
-  Import took 0.019003 seconds .
+  Time since last request: 2.206877 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f47fa2fdd8541139d0d96566929a276') in 0.012647 seconds 
+  Import took 0.019712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.784361 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491c997c04386c3856c09ce6236cbd40') in 0.012825 seconds 
-  Import took 0.020930 seconds .
+  Time since last request: 0.581347 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f06c3094f7cf8d4a2591319bea8b0e') in 0.013874 seconds 
+  Import took 0.021057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.599828 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3368397b6c869af50e14d1b0dc3c7e7') in 0.013320 seconds 
-  Import took 0.021118 seconds .
+  Time since last request: 7.239690 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53142251e87e2401a1c427a16ee80b29') in 0.011788 seconds 
+  Import took 0.019048 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.799075 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5000db129493e14e32d6f33b63b9d') in 0.012204 seconds 
-  Import took 0.019756 seconds .
+  Time since last request: 3.263455 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226cac4a992af211cf1537c441a3cb2b') in 0.014058 seconds 
+  Import took 0.021345 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.633494 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e4545654d71af97d0b4b0531da4b0c') in 0.011899 seconds 
-  Import took 0.018445 seconds .
+  Time since last request: 1.816017 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf09af194c6ad3a30932c6ce503ff81e') in 0.012539 seconds 
+  Import took 0.020478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.592527 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956e46842e7e0093e9ec63adc700e54d') in 0.013670 seconds 
-  Import took 0.021870 seconds .
+  Time since last request: 4.449675 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f247969aaf0069b2d3aaef8ee165f3') in 0.012888 seconds 
+  Import took 0.020298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.644568 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee5ba5839e1be50daeedff25eaf3dd9') in 0.012152 seconds 
-  Import took 0.019826 seconds .
+  Time since last request: 2.247403 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef4fc5cf92f2cf81eb610ac6ee66a0d') in 0.013330 seconds 
+  Import took 0.020932 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.231836 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5b2c774b40284b454b4a92647b4bbe') in 0.014316 seconds 
-  Import took 0.021705 seconds .
+  Time since last request: 5.989444 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1a1b1359514d3d4ef36616e7ab9985') in 0.014205 seconds 
+  Import took 0.021751 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.465034 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c0aa61151dfbb80a3046b98de030f3') in 0.012159 seconds 
-  Import took 0.019916 seconds .
+  Time since last request: 2.341546 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af32b1ab75fd8e2bc5eee535c956751a') in 0.012711 seconds 
+  Import took 0.022309 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.763110 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbac6350b347c852478f680b716e7a9') in 0.013498 seconds 
-  Import took 0.021514 seconds .
+  Time since last request: 3.029434 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325b5a3035b58c4d0d5425f7375fe98e') in 0.013667 seconds 
+  Import took 0.020774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.761703 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28210fa22cdfbc3879af1cd3d500c91a') in 0.012497 seconds 
-  Import took 0.019338 seconds .
+  Time since last request: 2.621409 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7a39c89363ebdc2587dec6cf5491eb') in 0.013305 seconds 
+  Import took 0.021123 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.547148 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Pot.prefab
-  artifactKey: Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Pot.prefab using Guid(b92bf26952a367c4fa6910ebfbd1ae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7894abff95b45a11a4984debafe112b4') in 0.012136 seconds 
-  Import took 0.019304 seconds .
+  Time since last request: 80.561674 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/BaseballCap.prefab
+  artifactKey: Guid(7794f19b15053e24798f7a11aef23c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/BaseballCap.prefab using Guid(7794f19b15053e24798f7a11aef23c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440d6c41ec780429638ea3f4a87b09cc') in 0.012901 seconds 
+  Import took 0.020706 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.265684 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79df7d034cfb1b5deefe1271e505dca5') in 0.016932 seconds 
-  Import took 0.025119 seconds .
+  Time since last request: 17.331467 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f5f91863d71beb725a3b3c20301e9b') in 0.019007 seconds 
+  Import took 0.026113 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.213346 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38345b84beae00ddfafa6a3b32fdff6') in 0.013120 seconds 
-  Import took 0.020314 seconds .
+  Time since last request: 3.296202 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
+  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54c5b17c50e1c9e6e4f1821c9fa7631') in 0.013331 seconds 
+  Import took 0.020417 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.197014 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89b36f82556b957c5ad2268ef564748') in 0.013653 seconds 
-  Import took 0.020564 seconds .
+  Time since last request: 12.401266 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/CandyDot.prefab
+  artifactKey: Guid(9d41fac30d0b6d14d94ea452a9811f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/CandyDot.prefab using Guid(9d41fac30d0b6d14d94ea452a9811f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadf70ec265bf7295dd3e00de93e8db0') in 0.012432 seconds 
+  Import took 0.019985 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.129133 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edd5988619b8007b8d462926b9173f7') in 0.014662 seconds 
-  Import took 0.022456 seconds .
+  Time since last request: 6.594653 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
+  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66507f43235c0166e25940c5b2f198d') in 0.012705 seconds 
+  Import took 0.020656 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.671397 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5403e17d8f73b0fd76f61f85e91413ad') in 0.012737 seconds 
-  Import took 0.020457 seconds .
+  Time since last request: 13.896225 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d6454962db377681688d3d051964ca') in 0.012842 seconds 
+  Import took 0.021913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.728731 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1fe9ec3133e090cdd58fa4f78dd83b') in 0.013029 seconds 
-  Import took 0.020302 seconds .
+  Time since last request: 12.463921 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3dc8fc689270ec6a6180816931f3fc') in 0.013547 seconds 
+  Import took 0.020623 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.607558 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a15882c30749d0008557ae286dbd57') in 0.012838 seconds 
-  Import took 0.021899 seconds .
+  Time since last request: 3.417850 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda41d1dfa470a7136bdc957a73ff6c5') in 0.012604 seconds 
+  Import took 0.019737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.668057 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8386b347ad4bc08d60f06e4961df35c6') in 0.013582 seconds 
-  Import took 0.021401 seconds .
+  Time since last request: 6.059372 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fc2d988fce01878f1cd1eec417f0c2') in 0.012670 seconds 
+  Import took 0.021071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.146869 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca60e138daa36fa4b1fad3b3c115458a') in 0.013991 seconds 
-  Import took 0.021477 seconds .
+  Time since last request: 3.782138 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fd18b97f7ae3896fab0801067c52ca') in 0.012736 seconds 
+  Import took 0.037124 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.554075 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0649f27016372970836233ce88af41') in 0.012070 seconds 
+  Time since last request: 7.219189 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c09681192b36f843a27584d0051677b') in 0.013550 seconds 
+  Import took 0.022303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.989993 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3a1f65ce5de21ff628545ebae46ea5') in 0.012348 seconds 
+  Import took 0.020083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626533 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57693b3e1ba3220057167195b6caedab') in 0.012692 seconds 
+  Import took 0.020405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.286687 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3d194d6e5104620a4acce6e7c7bb31') in 0.013172 seconds 
+  Import took 0.020279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.491254 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9910829af1ac383b47b6381200120110') in 0.012816 seconds 
+  Import took 0.020673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.792002 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3953178c6a5cf6758ac33456b2af3c05') in 0.012337 seconds 
+  Import took 0.020742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.061890 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079768990d5119cdef0d24fb5018bb64') in 0.012593 seconds 
+  Import took 0.020455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.961180 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abf57a1fff874ef384e0c04e5d7fadd') in 0.013232 seconds 
+  Import took 0.020728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.249364 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60836edb5a5e1f6f29c23278dcd802cb') in 0.012160 seconds 
+  Import took 0.020247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.004977 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1067b947b8290ce2460d8781570bb76b') in 0.013288 seconds 
+  Import took 0.021676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.364520 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3979f2c3babb1163461c44f86c98ced') in 0.012964 seconds 
+  Import took 0.021052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.386395 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f1a423c6f37f99f4f24b04bbbe299c') in 0.012701 seconds 
+  Import took 0.020997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.887128 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741155e5770bcb3fdafb1b59bfb05474') in 0.012495 seconds 
   Import took 0.019486 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.550378 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a05e92a63486c3ab5bd0533a83588e') in 0.013049 seconds 
-  Import took 0.019872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.601561 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd467bfe6811791c84bd7dda051f9f8d1') in 0.012730 seconds 
-  Import took 0.020246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 219.420005 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b25ae96268b6f231a7a1b785ceaa76') in 0.013923 seconds 
-  Import took 0.021720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.800582 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38defcb688bbb8cda20674b7aefb9cb8') in 0.013777 seconds 
-  Import took 0.020432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.422800 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d64a014977b3401ec1ee255e6696de9') in 0.013338 seconds 
-  Import took 0.019942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.755584 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1362aa3f99c3263294ed9457dd1129c4') in 0.013548 seconds 
-  Import took 0.020983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.847364 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586ec8c5a3475485b0aa63fd6873bbed') in 0.015722 seconds 
-  Import took 0.022452 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.469282 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47269571e2c6e9633fe2d26d0bf1d8ca') in 0.013552 seconds 
-  Import took 0.020969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.394403 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab64606b97a137b5da0dff8a2741708') in 0.012796 seconds 
-  Import took 0.020619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.801592 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f2e8b1f973414ca1b06aa4939c84fb') in 0.014284 seconds 
-  Import took 0.021567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.190634 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbe5bcad587f862fe48b7dd9c69004e') in 0.015724 seconds 
-  Import took 0.023127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.883578 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/0Bedroom.prefab
-  artifactKey: Guid(f73052c32ac7d3c45b6dd7172ea29905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/0Bedroom.prefab using Guid(f73052c32ac7d3c45b6dd7172ea29905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd001b9d2c07b75bd8212095619145286') in 0.017733 seconds 
-  Import took 0.024756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/CandyDot.prefab
-  artifactKey: Guid(9d41fac30d0b6d14d94ea452a9811f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/CandyDot.prefab using Guid(9d41fac30d0b6d14d94ea452a9811f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89cc4f697b31bb40eb13bab20b09a1c') in 0.017893 seconds 
-  Import took 0.024544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/TVRemote.prefab
-  artifactKey: Guid(b6e4a1c6ecd397343b53d43909eb4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/TVRemote.prefab using Guid(b6e4a1c6ecd397343b53d43909eb4e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222b604cb06a2efbdc154a2c75e37d5d') in 0.019102 seconds 
-  Import took 0.025904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/Nighstand_Smol.prefab
-  artifactKey: Guid(058417d60a4c3764eaee75ed0d162530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/Nighstand_Smol.prefab using Guid(058417d60a4c3764eaee75ed0d162530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da14ecc0a5074b2f343892b9cf10929c') in 0.017776 seconds 
-  Import took 0.024851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/Pen.prefab
-  artifactKey: Guid(5540b48b8db8c544f8eb1cecbfcb3f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/Pen.prefab using Guid(5540b48b8db8c544f8eb1cecbfcb3f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67defdff1d2368ad06a11bdd48fa2e5e') in 0.017448 seconds 
-  Import took 0.024779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/BaseballCap.prefab
-  artifactKey: Guid(7794f19b15053e24798f7a11aef23c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/BaseballCap.prefab using Guid(7794f19b15053e24798f7a11aef23c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223577025d6b8f48b30a49fde362cf0c') in 0.022513 seconds 
-  Import took 0.030003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/AlarmClock.prefab
-  artifactKey: Guid(935078c837fb6ef4f9c9b3aa9a2876ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/AlarmClock.prefab using Guid(935078c837fb6ef4f9c9b3aa9a2876ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574d3d172f838413d7e5bf055a346300') in 0.018107 seconds 
-  Import took 0.025771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/Lamp.prefab
-  artifactKey: Guid(dba6a7a44fb3231449a51f6008dd92d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/Lamp.prefab using Guid(dba6a7a44fb3231449a51f6008dd92d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1956f3bc12760f6712b4904b102d4e0') in 0.011799 seconds 
-  Import took 0.018916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/Bed.prefab
-  artifactKey: Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/Bed.prefab using Guid(734db35f3c3469e4e9739285c75790aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862ee7dc8ea5efa683062fafdd20ac4f') in 0.017444 seconds 
-  Import took 0.025417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
+  Time since last request: 11.929117 seconds.
   path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
   artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9971c30954227a2c7403a9b1839503e3') in 0.012665 seconds 
-  Import took 0.019330 seconds .
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0439b043f57da6c0cd02702233e89e') in 0.014358 seconds 
+  Import took 0.022009 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/TV.prefab
-  artifactKey: Guid(418800e6e77fb2b4fb7c5fe745ccb39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/TV.prefab using Guid(418800e6e77fb2b4fb7c5fe745ccb39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a436d669813c80cd9d24dbecfa27270') in 0.012745 seconds 
-  Import took 0.019822 seconds .
+  Time since last request: 12.499107 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5795aef397e4d7f3152e7805124f0051') in 0.013658 seconds 
+  Import took 0.021425 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/Book.prefab
-  artifactKey: Guid(d0ea63be0402f8e418e457b285d8b3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/Book.prefab using Guid(d0ea63be0402f8e418e457b285d8b3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bd3784f38b1cc94fd3e1e169eb0924') in 0.012393 seconds 
-  Import took 0.019419 seconds .
+  Time since last request: 7.253189 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916222b5f9b5e6e8415fca9055799f11') in 0.014061 seconds 
+  Import took 0.022085 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/Nightstand.prefab
-  artifactKey: Guid(62529561a09a23d49ae5ee6e97cd8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/Nightstand.prefab using Guid(62529561a09a23d49ae5ee6e97cd8ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbabe7fe577a682e250d34a7702501d2') in 0.017851 seconds 
-  Import took 0.024262 seconds .
+  Time since last request: 6.079828 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a82785dd49bb0a84c8980af7c3e4f96') in 0.014553 seconds 
+  Import took 0.022476 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab
-  artifactKey: Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/ClassicRadio.prefab using Guid(91fe4ec85fd7a4141b95e871ed2b0daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7873a31b47d4b9ccc45eff7374fa2949') in 0.007453 seconds 
-  Import took 0.013871 seconds .
+  Time since last request: 34.260580 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d96cc4e5f9214113f7ac7227e7f524') in 0.013302 seconds 
+  Import took 0.021414 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Art_Assets/Bedroom Prefabs/SmartPhone.prefab
-  artifactKey: Guid(b56d9baf7dcdea0438d0f038975b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom Prefabs/SmartPhone.prefab using Guid(b56d9baf7dcdea0438d0f038975b9612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653c72ce6f5b0475310b5563e765ed94') in 0.015958 seconds 
-  Import took 0.024768 seconds .
+  Time since last request: 1.645741 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f540f50376ecde17cf57dd8996f04597') in 0.013652 seconds 
+  Import took 0.021055 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.631190 seconds.
-  path: Assets/Art_Assets/Bedroom_Level/Book.fbx
-  artifactKey: Guid(9e76521cfef5dab4db23afabff963876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom_Level/Book.fbx using Guid(9e76521cfef5dab4db23afabff963876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7af3c06e421450bf93513e774fe718') in 0.085301 seconds 
-  Import took 0.093799 seconds .
+  Time since last request: 2.561805 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29af4febdcb056a0941a31c1011bb6f4') in 0.013643 seconds 
+  Import took 0.020648 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Art_Assets/Bedroom_Level/TV.fbx
-  artifactKey: Guid(1604483b814edad418e35d44d5821499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom_Level/TV.fbx using Guid(1604483b814edad418e35d44d5821499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5ee0cf3cf609c9e6e6bb7f7b8d895f') in 0.035100 seconds 
-  Import took 0.042764 seconds .
+  Time since last request: 3.072299 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dac1b8f63a770ca09baa673fbf804db') in 0.014410 seconds 
+  Import took 0.022520 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Art_Assets/Bedroom_Level/ClassicRadio.fbx
-  artifactKey: Guid(3f31379959fa6e84d8c0996cf7bc6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom_Level/ClassicRadio.fbx using Guid(3f31379959fa6e84d8c0996cf7bc6841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee768e713b7766eaf238a1f55362814c') in 0.063186 seconds 
-  Import took 0.069165 seconds .
+  Time since last request: 2.267837 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e0259dd0d761defd2cb5e3e395c621') in 0.012466 seconds 
+  Import took 0.020116 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000495 seconds.
-  path: Assets/Art_Assets/Bedroom_Level/Dresser.fbx
-  artifactKey: Guid(24fce10e52154ec43b9b31da3cb0a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom_Level/Dresser.fbx using Guid(24fce10e52154ec43b9b31da3cb0a7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d68e342f96a583c3c2b4a8309f9a18') in 0.096286 seconds 
-  Import took 0.103264 seconds .
+  Time since last request: 3.264492 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf0266380db729137cb8032be7218c8') in 0.015457 seconds 
+  Import took 0.023425 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/Art_Assets/Bedroom_Level/Lamp.fbx
-  artifactKey: Guid(cdbb075977ed8954090f366946ed8f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom_Level/Lamp.fbx using Guid(cdbb075977ed8954090f366946ed8f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e811ee9b8296ebb2ca1e4b259317b2cb') in 0.051414 seconds 
-  Import took 0.058266 seconds .
+  Time since last request: 1.958225 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2195a01baf3ed84bc8dc8244ffce46') in 0.013673 seconds 
+  Import took 0.021763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Art_Assets/Bedroom_Level/Laptop.fbx
-  artifactKey: Guid(1ce75de68067e8d43a1f4b3f0211b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom_Level/Laptop.fbx using Guid(1ce75de68067e8d43a1f4b3f0211b84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b05d0e728cbc638f1aa1da37d422da') in 0.034243 seconds 
-  Import took 0.042094 seconds .
+  Time since last request: 0.591503 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7c4ab05eefec555cbe7950c0a52659') in 0.014454 seconds 
+  Import took 0.022105 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Art_Assets/Bedroom_Level/Pillow.fbx
-  artifactKey: Guid(3e71402695f83aa4d8e04f4e54446dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Bedroom_Level/Pillow.fbx using Guid(3e71402695f83aa4d8e04f4e54446dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03263839108c1b3e247d4157e5b1ed6e') in 0.034809 seconds 
-  Import took 0.041683 seconds .
+  Time since last request: 1.985815 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc48077a3537ef02950b519e5dd3fb8') in 0.014276 seconds 
+  Import took 0.022262 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.276927 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a636e4114981738179e1bee3cdc55f') in 0.018758 seconds 
-  Import took 0.027498 seconds .
+  Time since last request: 4.211743 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76617df3332b09b6ad816a658f2a5807') in 0.013381 seconds 
+  Import took 0.021335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.090530 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2575d7e31799b3f1b6fa766ab930d31d') in 0.012891 seconds 
-  Import took 0.019891 seconds .
+  Time since last request: 1.775385 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2294bde68b122ed50dd10a8b400be764') in 0.016957 seconds 
+  Import took 0.024071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.430216 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd54d1a6ae33e7b51924c036bf59d87f') in 0.014149 seconds 
-  Import took 0.023806 seconds .
+  Time since last request: 3.988600 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d7c0cab626052fc2ac8d65825d009d') in 0.013949 seconds 
+  Import took 0.022127 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.323975 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e31b4aab4d6d48999188e0b5c7d2881') in 0.013520 seconds 
-  Import took 0.020960 seconds .
+  Time since last request: 2.552320 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43725ffa3548b7f072ef1371769c3ac9') in 0.013850 seconds 
+  Import took 0.022149 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.157939 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22169f792cce3f55b026d8e301398629') in 0.013554 seconds 
-  Import took 0.020670 seconds .
+  Time since last request: 8.850628 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4bb90c680274ae0e8d6984d9c1d56b') in 0.013019 seconds 
+  Import took 0.020846 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.316266 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1bcc731e6dcacf53b288556ca3347b') in 0.012706 seconds 
-  Import took 0.019957 seconds .
+  Time since last request: 4.248999 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731dc1846a09424f7a5ddbc8e649ea33') in 0.013865 seconds 
+  Import took 0.025317 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.887826 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4aecdbd0354c4bfb1d18d9fcddccd0') in 0.013600 seconds 
+  Time since last request: 77.247365 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e0aba30b3df1543936095678ed48f7') in 0.013733 seconds 
+  Import took 0.020661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.036744 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299d8378e6c8ea032eac9a6dd23465b0') in 0.012914 seconds 
+  Import took 0.021043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.872063 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e11b015d9e086b0c80c0f1e5d7169c') in 0.015617 seconds 
+  Import took 0.023626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.963497 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912446109a59bded7f1ae904ed8c0e26') in 0.018670 seconds 
+  Import took 0.025525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.695626 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58580b92a964c10b6db6344a4e60a1d') in 0.014701 seconds 
+  Import took 0.022171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.567057 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f5d66b3a760313940e77c84d2caf74') in 0.015269 seconds 
+  Import took 0.022813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.231758 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd02f4a54fa39892eec3ed78bd22451') in 0.014626 seconds 
+  Import took 0.021456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.510061 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22a2faed45657be4cf38c0909fbd63') in 0.012552 seconds 
+  Import took 0.020519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.413778 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f92f6db0d9760ed8c0bf2678f5daea0') in 0.014377 seconds 
+  Import took 0.021943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.627400 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52485e3e14cb9b559a112a1448f56d0f') in 0.014052 seconds 
+  Import took 0.021665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.624013 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0744d8cebdbb0da43564945f979bb20') in 0.016167 seconds 
+  Import took 0.023596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.642360 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed89fc1cf97fce58ddc694856fe47ef6') in 0.013574 seconds 
+  Import took 0.021196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.759462 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4803b09b85145889f018b357e59148ac') in 0.017792 seconds 
+  Import took 0.026061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.136508 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3b3bdde8378580562e336afad59a12') in 0.014740 seconds 
+  Import took 0.023076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.725385 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e086bb8e1e0fec08fef976478f4d65c') in 0.013641 seconds 
+  Import took 0.021930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.015277 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de47321b16481d086f461ce9004c348f') in 0.013955 seconds 
+  Import took 0.021291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.738732 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aaf267f468ab0b7df5a55bc39a1c5d') in 0.015591 seconds 
+  Import took 0.023628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580004 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b46babab0d01ab9afd0aa262d589aa3') in 0.014348 seconds 
+  Import took 0.023203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.642600 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8834c9ef0e31ff78ae899389dcfba236') in 0.015263 seconds 
+  Import took 0.022450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.535558 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2327347f67727e9abc4b6c4b9afd35c') in 0.014241 seconds 
+  Import took 0.022180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.421456 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de33aeb5773b745163e805308817ed37') in 0.017205 seconds 
+  Import took 0.024714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.816415 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f6bf1575facfd194073d3d4298d3e0') in 0.014050 seconds 
+  Import took 0.021213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.530551 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0552afbc90c6be75c019fb9f950bf2f0') in 0.013759 seconds 
+  Import took 0.020915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.116231 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09b267731ad4db2b493f3d3cbf22693') in 0.013687 seconds 
+  Import took 0.021150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983367 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0278d82ea2fa00b00c01faa1aed0056') in 0.013925 seconds 
+  Import took 0.021633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.827250 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210b7645b73f5a5dccd903091b47cb1e') in 0.015129 seconds 
+  Import took 0.022710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.237021 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905be57e33c0d8a0631343d4a8647622') in 0.013117 seconds 
+  Import took 0.021024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.721762 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9f80462d0f7b2d860323425abe3b23') in 0.014047 seconds 
   Import took 0.022028 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.832387 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb48b2f43a7ca2ea36febde12fb933a6') in 0.013684 seconds 
-  Import took 0.020871 seconds .
+  Time since last request: 2.708194 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06362083a645e4b744a7469b1b2862a') in 0.013868 seconds 
+  Import took 0.021258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.265870 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80aa1f20c94f3464865ed952ffaf60f') in 0.012843 seconds 
-  Import took 0.019759 seconds .
+  Time since last request: 3.451653 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de4ce0295d2f24b26a325c1493bb159') in 0.015396 seconds 
+  Import took 0.022044 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.161269 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72c4a1a946d183d5fe598656ed05ade') in 0.012746 seconds 
-  Import took 0.020119 seconds .
+  Time since last request: 2.502642 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f82cd3b5c4bc7e01df4dea6af306582') in 0.014037 seconds 
+  Import took 0.021864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.125527 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b23008a84d98ef42447d86e53dcfbff') in 0.013212 seconds 
-  Import took 0.020410 seconds .
+  Time since last request: 7.597743 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee89d8892fb7f0a94584f8bbfaa54f8e') in 0.014083 seconds 
+  Import took 0.022204 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.770780 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fd5389541a7b91dbf6131549fba966') in 0.013078 seconds 
-  Import took 0.020474 seconds .
+  Time since last request: 2.734335 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c158269210c4fcdb1e4acea1da9ea884') in 0.014294 seconds 
+  Import took 0.021742 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.775950 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b29c82af15d744795bb42bc8521dce') in 0.012277 seconds 
-  Import took 0.019361 seconds .
+  Time since last request: 2.980409 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0162e131aea679e3833445bb9a9194b5') in 0.013855 seconds 
+  Import took 0.020524 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.703705 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab
-  artifactKey: Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Microwave.prefab using Guid(7378286c74626db48b4406ba52b7de24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c8e71b0fd8b60ab1e442b20aea06d8') in 0.013053 seconds 
-  Import took 0.020505 seconds .
+  Time since last request: 3.210239 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b9abad240109a39bca5e31d6e9cee9') in 0.012904 seconds 
+  Import took 0.020130 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.394282 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Bowl.prefab
-  artifactKey: Guid(96d36a4eaafa8ca4487bb339e53f23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Bowl.prefab using Guid(96d36a4eaafa8ca4487bb339e53f23f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42f7fb6fd48cf05214981f149a3d01b') in 0.018282 seconds 
-  Import took 0.026174 seconds .
+  Time since last request: 5.815700 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d6e086c91955b5311da7bca0cae2d4') in 0.013761 seconds 
+  Import took 0.021170 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.071415 seconds.
-  path: Assets/Art_Assets/Kitchen Prefabs/Blender.prefab
-  artifactKey: Guid(5fec58d392107dc4597b57502af43a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art_Assets/Kitchen Prefabs/Blender.prefab using Guid(5fec58d392107dc4597b57502af43a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4286d2251742dc19a8cc0f5ad74fb27') in 0.021340 seconds 
-  Import took 0.029167 seconds .
+  Time since last request: 2.183804 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e9f96919d5986fb4cd9eee5a84dabb') in 0.013574 seconds 
+  Import took 0.021522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.414725 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209971cdd5abcc46b074ff3d50926132') in 0.014722 seconds 
+  Import took 0.022979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.106042 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a640773295c636a05b87e8dda49074') in 0.020073 seconds 
+  Import took 0.047162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.774893 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30a9a7eaaa7ba803327dfe0c0b37775') in 0.017076 seconds 
+  Import took 0.023972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.201339 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8582c0e9f3967e4f128612b05131051') in 0.015050 seconds 
+  Import took 0.023079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.662258 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd790ee3110fdc26509f1fd0973e89461') in 0.014281 seconds 
+  Import took 0.023810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.263807 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c8f16ef7b06e8f2327da78f3d7e001') in 0.014604 seconds 
+  Import took 0.021872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.847302 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b2855f42d156759b6d68b4fd015e66') in 0.014751 seconds 
+  Import took 0.021781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.385299 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0d034e715918fa159b971583819de0') in 0.016035 seconds 
+  Import took 0.023158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.421721 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a521605b347540c52fe5a8e855b4675d') in 0.014690 seconds 
+  Import took 0.022449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.832614 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac7dc932f2248e642c044af19a75b94') in 0.013356 seconds 
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.534234 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8fe9ac1050cb306cfba247974a361a') in 0.016494 seconds 
+  Import took 0.024578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.034566 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0b09570018128ec921538f832d6117') in 0.014087 seconds 
+  Import took 0.022029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.224462 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24e2695ebdeff5b66d1af1a5424f101') in 0.014164 seconds 
+  Import took 0.020865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.128725 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd475076479c7599d4640e6467cded2c6') in 0.014983 seconds 
+  Import took 0.022024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.380485 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05064ae188528ce6d86f01e18cb9d9e2') in 0.014580 seconds 
+  Import took 0.021369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594039 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fe0f32ac91db07e63e43dd1076f18a') in 0.014341 seconds 
+  Import took 0.022374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.178599 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d73c2029513ec94180755d916d6da7') in 0.016081 seconds 
+  Import took 0.023487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.896680 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034b2552eefb09b49768f7e093e18ea7') in 0.014073 seconds 
+  Import took 0.021615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020193 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0dbdd7f15f155ec78124c74b88d094') in 0.014032 seconds 
+  Import took 0.021579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.246243 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f492e5878f26048e108ec61556ddb85d') in 0.014422 seconds 
+  Import took 0.021483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.609285 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7eacd2208553152845d8a095679624') in 0.014217 seconds 
+  Import took 0.021937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.201618 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc22a0ac3ae72c464fcb146f5d54cb2') in 0.014145 seconds 
+  Import took 0.021809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.591106 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a61796032bfc4b71a3d28f5d4d01087') in 0.013358 seconds 
+  Import took 0.020620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.395212 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cb8332dc607dd1a466dbad403aa3ca') in 0.014536 seconds 
+  Import took 0.022441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.858021 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83fd14120a31a2fdbb3dc445b4faf8f') in 0.013376 seconds 
+  Import took 0.020722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.706053 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9652d7bd5f7ffc5579f732cc2032cf') in 0.014068 seconds 
+  Import took 0.021387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.596901 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004e483e5c8bdc5d704c93c404fb37f4') in 0.015356 seconds 
+  Import took 0.023432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.395906 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885f5945208b5cf57fed4d5fe4bfe6bd') in 0.014347 seconds 
+  Import took 0.022676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.302458 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2c2179203a487f4169536657a8c575') in 0.015775 seconds 
+  Import took 0.022884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.169614 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaca383681b3b90b5cb6abbcd2bcf1f') in 0.015478 seconds 
+  Import took 0.022714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402727 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1c3d59a275c66c67bd27b00dc6442c') in 0.016997 seconds 
+  Import took 0.024746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.696156 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a59de22eadcebd3600c92351628f42d') in 0.014930 seconds 
+  Import took 0.022450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.144371 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949f82fd60e53fa492d16da91440568f') in 0.013589 seconds 
+  Import took 0.020856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.927467 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b10a49372dea95c1607a167239715d7') in 0.013443 seconds 
+  Import took 0.021989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.454481 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6966970564a4570e6101a08f673d2c') in 0.013904 seconds 
+  Import took 0.022170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.563578 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa396542119b96f412502269cbf1824') in 0.016730 seconds 
+  Import took 0.023750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.862810 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e43c7abacb096fad3d7fadeaf640e24') in 0.015152 seconds 
+  Import took 0.022455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.209426 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a74a10d12215532c1bd31402b81b2d3') in 0.014913 seconds 
+  Import took 0.023092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.187689 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c184b2e5013022bf0f147f54d810501a') in 0.015546 seconds 
+  Import took 0.022857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580222 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db89e2a9a56cfde5dbb6f5b6cfc380aa') in 0.015273 seconds 
+  Import took 0.023364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.784716 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470457447f68bfd6668b0d8eb759123e') in 0.013773 seconds 
+  Import took 0.021288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.582172 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68dd0cd96d8b6b9b18f2930013ab8ca') in 0.015329 seconds 
+  Import took 0.022530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.096734 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9833992581663e9fed5b02655e1ed888') in 0.018292 seconds 
+  Import took 0.026512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.079626 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555e13dc1099624d5ce0118ef987cfe3') in 0.014289 seconds 
+  Import took 0.022272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.717239 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa16368a969924203b60f9e840a69518') in 0.015097 seconds 
+  Import took 0.022736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.254164 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d6d1a6291114abfb5167dfe5ecb617') in 0.015787 seconds 
+  Import took 0.023025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.763850 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b9b8ff848d473cb7a72c59dcbb981c') in 0.014846 seconds 
+  Import took 0.022811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.001693 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bcf3d09df4dfa10be98b4435f4572c') in 0.014707 seconds 
+  Import took 0.022490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.805561 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3facb4c8f1200e1f6b5a9db8439857b0') in 0.015074 seconds 
+  Import took 0.023111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.519553 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd04ae46d1b502e48a7064a3cea85f6') in 0.014297 seconds 
+  Import took 0.021825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.823818 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd9812cf724c36cd9eed04dfb3c1745') in 0.014339 seconds 
+  Import took 0.022270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.349181 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a038f1932864aef0b6958c6553dd41c') in 0.014977 seconds 
+  Import took 0.022005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781138 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8c536a6b160f836bfe9d12df74c446') in 0.018624 seconds 
+  Import took 0.026442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.185299 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017caa46519da742691cac8f3705c86d') in 0.015089 seconds 
+  Import took 0.022386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236114 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cb65bf343d931a8972b952d54d8e40') in 0.015556 seconds 
+  Import took 0.022773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.584183 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1934e47b5a6faeb302c8fdc955cbda24') in 0.015094 seconds 
+  Import took 0.022778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.132982 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80df69fc69e774b613ee5fa746da8c1') in 0.013753 seconds 
+  Import took 0.021697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.457628 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2864a00d3d469029bf38419f4c104632') in 0.015236 seconds 
+  Import took 0.022663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.704587 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85ca3f96a05da6d0c3482fc9c022506') in 0.014925 seconds 
+  Import took 0.022089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.315817 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11924b4afa4f20175d9d721791b7208') in 0.015012 seconds 
+  Import took 0.022596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.864750 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85c7016c50bff7cadbb4ab0bcbb49cb') in 0.014867 seconds 
+  Import took 0.022177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.793744 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b02d2cf24a4a5d80e8bb49e1caf973') in 0.013714 seconds 
+  Import took 0.022012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.192313 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c6292671abd2dce9f8ab1d4188c0ab') in 0.014005 seconds 
+  Import took 0.021999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.648937 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed89318e46acb20592d4a6d88209ab2a') in 0.017113 seconds 
+  Import took 0.025042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.685046 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87066062732e4d7b71c31e972584e50') in 0.015053 seconds 
+  Import took 0.022376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.567729 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b1d2afacb65130fd679195934c19a3') in 0.013824 seconds 
+  Import took 0.021154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.264742 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f122742ad641ae9a6b21dc5f490dc15') in 0.016540 seconds 
+  Import took 0.024384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.276834 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50123b8fdc902bc4c6a354de61ba1e23') in 0.014234 seconds 
+  Import took 0.022065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.906370 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa01f8e5ac3b67d00525292c1e2fe1c') in 0.015565 seconds 
+  Import took 0.023593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.909138 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa91d6e2353cb5cdabffbdb39a647439') in 0.016715 seconds 
+  Import took 0.023577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.147852 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d203b33325d22f50429c022d218514') in 0.015750 seconds 
+  Import took 0.023544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.042564 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a208521b86474460a53285b1aaec8186') in 0.015645 seconds 
+  Import took 0.022628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.741172 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f11ab4825caf102180c144d8aac493') in 0.017259 seconds 
+  Import took 0.024446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.441379 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771a600500ab4fce77dffdb14a95e398') in 0.014512 seconds 
+  Import took 0.022328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583322 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cfc41744a3d29a1aab547b3ab5d614') in 0.015109 seconds 
+  Import took 0.022741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.559313 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b6450055ee88353b829cb702bdbc1d') in 0.016068 seconds 
+  Import took 0.024052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.030401 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342feddb9a912a74bfe3014053abac73') in 0.016417 seconds 
+  Import took 0.024404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.007601 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7fcd1fe8c7213e990fef9b25a7eadb') in 0.015219 seconds 
+  Import took 0.022789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.166712 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88bed192dd839812a006608c62a3844') in 0.015025 seconds 
+  Import took 0.023268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.401826 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e6a02d2830051a8a9e058fdbf96a6d') in 0.015693 seconds 
+  Import took 0.022990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.581009 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16baa4d5db4494098ab663f572bf21d4') in 0.016930 seconds 
+  Import took 0.024226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387595 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1eb1e52d17b01d9e07182ad0b82f1c8') in 0.015123 seconds 
+  Import took 0.022394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.781743 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429c11d8db5cf39f7f272706a3d9a8a2') in 0.015898 seconds 
+  Import took 0.023687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.646840 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9d6f6a740ef20506216b46f34c23e7') in 0.014955 seconds 
+  Import took 0.022013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.373281 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a553b5192927dd1689b1a216b84f50c9') in 0.016006 seconds 
+  Import took 0.023352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.384118 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007d93661b6a3f1cf7dffde04adf4404') in 0.015675 seconds 
+  Import took 0.023380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.463272 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3c328c0799bbb1a8928b6bd933594d') in 0.015927 seconds 
+  Import took 0.023216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.396125 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b073b1c33135b5b91c0deed21ca97e33') in 0.015966 seconds 
+  Import took 0.023697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.497762 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e42cb0fdf4286f2afd4f5f342686d6a') in 0.016321 seconds 
+  Import took 0.023589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.351397 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a09fafb6404cd0f6563bd9ccaf79ccb') in 0.017440 seconds 
+  Import took 0.024551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.434036 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1fd0d9df294189d8fefa1a92c155cb') in 0.015747 seconds 
+  Import took 0.023802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.018541 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3f27b1722e4c060e53c8e17ceaaec0') in 0.015818 seconds 
+  Import took 0.022792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.788446 seconds.
+  path: Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab
+  artifactKey: Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art_Assets/Bedroom Prefabs/Dresser.prefab using Guid(4bc127006f7df9949890b5c9c9ced3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6b29843608bc78381dcebf7687cace') in 0.015512 seconds 
+  Import took 0.023156 seconds .
 
