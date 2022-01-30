@@ -80,8 +80,15 @@ public class LevelController : MonoBehaviour
             ImVeryTiredAndJustWantToMessAroundAtThisPointPleaseDontHateMeForMyPoorCodingPractices.Play();
         }
 
-        LoadMainMenu();
+        StartCoroutine(WaitThroughCelebration());
     }
+
+    IEnumerator WaitThroughCelebration()
+    {
+        yield return new WaitForSeconds(5);
+
+        LoadMainMenu();
+    }    
 
     private void LoadMainMenu()
     {
