@@ -53,8 +53,8 @@ public class ItemTeleporting : MonoBehaviour
 
     private void TryMove()
     {
-        print("Attempted Move");
-        print(locations.Count + " " + !objectRenderer.isVisible + " " + !interactable.isSelected);
+        //print("Attempted Move");
+        //print(locations.Count + " " + !objectRenderer.isVisible + " " + !interactable.isSelected);
         if (locations.Count > 0 && !objectRenderer.isVisible && !interactable.isSelected)
         {
             List<Transform> validSpots = new List<Transform>();
